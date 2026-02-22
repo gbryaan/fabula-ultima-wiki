@@ -4,7 +4,7 @@ import Header from "@/components/organisms/Header";
 
 interface Props {
     children : React.ReactNode
-    params : {categoria : string}
+    params : Promise<{categoria : string}>
 }
 
 const CATEGORY_NAMES: Record<string, string> = {

@@ -4,10 +4,10 @@ import { notFound } from "next/navigation";
 
 interface Props {
     // Agora o Next.js injeta esses dois valores pela URL
-    params: { 
+    params: Promise<{ 
         categoria: string;
         id: string;
-    }
+    }>
 }
 
 // Renomeado para refletir o comportamento global e dinâmico
