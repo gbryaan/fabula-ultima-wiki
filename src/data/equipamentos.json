@@ -1,0 +1,604 @@
+[
+  {
+    "id": "ataque-desarmado",
+    "name": "Ataque Desarmado",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Golpes com punhos, chutes ou cabeçadas. Equipado automaticamente em espaços de mão vazios.",
+    "category": {
+      "weapon_category": "Luta",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 0】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 0,
+    "special_ability": "Equipado automaticamente em espaços de mão vazios.",
+    "magic": false
+  },
+  {
+    "id": "improvisada-corpo-a-corpo",
+    "name": "Improvisada (Corpo a Corpo)",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma garrafa quebrada, um pedaço de pau ou uma pedra.",
+    "category": {
+      "weapon_category": "Luta",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 2】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 0,
+    "special_ability": "Quebra após o ataque.",
+    "magic": false
+  },
+  {
+    "id": "soqueira-de-ferro",
+    "name": "Soqueira de Ferro",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Proteção de metal para os punhos para aumentar o impacto.",
+    "category": {
+      "weapon_category": "Luta",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "adaga-de-aco",
+    "name": "Adaga de Aço",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma lâmina curta, rápida e mortal, comum entre ladinos.",
+    "category": {
+      "weapon_category": "Adaga",
+      "precision_dice": "【DES + AST】 +1",
+      "damage": "【RA + 4】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "pistola",
+    "name": "Pistola",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma arma de fogo tecnológica ou magitech de curto alcance.",
+    "category": {
+      "weapon_category": "Arma de Fogo",
+      "precision_dice": "【DES + AST】",
+      "damage": "【RA + 8】 físico",
+      "hand_count": "Uma mão",
+      "range": "À distância"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 250,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "cajado",
+    "name": "Cajado",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um bastão longo usado para canalizar magia ou bater.",
+    "category": {
+      "weapon_category": "Arcana",
+      "precision_dice": "【VON + VON】",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 100,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "tomo",
+    "name": "Tomo",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um grimório ou escrituras sagradas para conjuradores.",
+    "category": {
+      "weapon_category": "Arcana",
+      "precision_dice": "【AST + AST】",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 100,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "besta",
+    "name": "Besta",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma arma de disparo com gatilho e grande potência.",
+    "category": {
+      "weapon_category": "Arco",
+      "precision_dice": "【DES + AST】",
+      "damage": "【RA + 8】 físico",
+      "hand_count": "Duas mãos",
+      "range": "À distância"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "arco-curto",
+    "name": "Arco Curto",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um arco leve e fácil de manusear.",
+    "category": {
+      "weapon_category": "Arco",
+      "precision_dice": "【DES + DES】",
+      "damage": "【RA + 8】 físico",
+      "hand_count": "Duas mãos",
+      "range": "À distância"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "improvisada-distancia",
+    "name": "Improvisada (À Distância)",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma pedra, um prato ou qualquer objeto arremessável.",
+    "category": {
+      "weapon_category": "Arremesso",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 2】 físico",
+      "hand_count": "Uma mão",
+      "range": "À distância"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 0,
+    "special_ability": "Quebra após o ataque.",
+    "magic": false
+  },
+  {
+    "id": "shuriken",
+    "name": "Shuriken",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Estrelas de arremesso ou facas balanceadas.",
+    "category": {
+      "weapon_category": "Arremesso",
+      "precision_dice": "【DES + AST】",
+      "damage": "【RA + 4】 físico",
+      "hand_count": "Uma mão",
+      "range": "À distância"
+    },
+    "item_type": "weapon",
+    "marcial": false,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "chicote-de-correntes",
+    "name": "Chicote de Correntes",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma corrente pesada ou mangual.",
+    "category": {
+      "weapon_category": "Malho",
+      "precision_dice": "【DES + DES】",
+      "damage": "【RA + 8】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "martelo-de-ferro",
+    "name": "Martelo de Ferro",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um martelo de guerra de uma mão.",
+    "category": {
+      "weapon_category": "Pesada",
+      "precision_dice": "【VIG + VIG】",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "machado-largo",
+    "name": "Machado Largo",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um machado de lâmina larga para uma mão.",
+    "category": {
+      "weapon_category": "Pesada",
+      "precision_dice": "【VIG + VIG】",
+      "damage": "【RA + 10】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 250,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "machado-de-guerra",
+    "name": "Machado de Guerra",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um machado enorme que exige duas mãos.",
+    "category": {
+      "weapon_category": "Pesada",
+      "precision_dice": "【VIG + VIG】",
+      "damage": "【RA + 14】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 250,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "lanca-leve",
+    "name": "Lança Leve",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma lança simples que pode ser usada com escudo.",
+    "category": {
+      "weapon_category": "Lança",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 8】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "lanca-pesada",
+    "name": "Lança Pesada",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma lança longa de duas mãos (alabarda, pique).",
+    "category": {
+      "weapon_category": "Lança",
+      "precision_dice": "【DES + VIG】",
+      "damage": "【RA + 12】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "espada-de-bronze",
+    "name": "Espada de Bronze",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma espada comum de uma mão.",
+    "category": {
+      "weapon_category": "Espada",
+      "precision_dice": "【DES + VIG】 +1",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "montante",
+    "name": "Montante",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma espada grande de duas mãos.",
+    "category": {
+      "weapon_category": "Espada",
+      "precision_dice": "【DES + VIG】 +1",
+      "damage": "【RA + 10】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "katana",
+    "name": "Katana",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma espada oriental leve e afiada.",
+    "category": {
+      "weapon_category": "Espada",
+      "precision_dice": "【DES + AST】 +1",
+      "damage": "【RA + 10】 físico",
+      "hand_count": "Duas mãos",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "rapieira",
+    "name": "Rapieira",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Uma espada fina focada em estocadas.",
+    "category": {
+      "weapon_category": "Espada",
+      "precision_dice": "【DES + AST】 +1",
+      "damage": "【RA + 6】 físico",
+      "hand_count": "Uma mão",
+      "range": "Corpo a corpo"
+    },
+    "item_type": "weapon",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "sem-armadura",
+    "name": "Sem Armadura",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Roupas do dia a dia.",
+    "category": {
+      "defense_dice": "[DES]",
+      "defense_modificator": 0,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 0,
+      "iniciative": 0
+    },
+    "item_type": "armor",
+    "marcial": false,
+    "cost": 0,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "camisa-de-seda",
+    "name": "Camisa de Seda",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Roupa leve reforçada.",
+    "category": {
+      "defense_dice": "[DES]",
+      "defense_modificator": 0,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 2,
+      "iniciative": -1
+    },
+    "item_type": "armor",
+    "marcial": false,
+    "cost": 100,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "traje-de-viagem",
+    "name": "Traje de Viagem",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Roupa de couro ou tecido grosso.",
+    "category": {
+      "defense_dice": "[DES]",
+      "defense_modificator": 1,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 1,
+      "iniciative": -1
+    },
+    "item_type": "armor",
+    "marcial": false,
+    "cost": 100,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "tunica-de-combate",
+    "name": "Túnica de Combate",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Vestimenta leve para mobilidade.",
+    "category": {
+      "defense_dice": "[DES]",
+      "defense_modificator": 1,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 1,
+      "iniciative": 0
+    },
+    "item_type": "armor",
+    "marcial": false,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "vestes-de-sabio",
+    "name": "Vestes de Sábio",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Robes de magos.",
+    "category": {
+      "defense_dice": "[DES]",
+      "defense_modificator": 1,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 2,
+      "iniciative": -2
+    },
+    "item_type": "armor",
+    "marcial": false,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "brigantina",
+    "name": "Brigantina",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Armadura de placas leves ou cota de malha.",
+    "category": {
+      "defense_modificator": 10,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 0,
+      "iniciative": -2
+    },
+    "item_type": "armor",
+    "marcial": true,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "placa-de-bronze",
+    "name": "Placa de Bronze",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Armadura metálica sólida.",
+    "category": {
+      "defense_modificator": 11,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 0,
+      "iniciative": -3
+    },
+    "item_type": "armor",
+    "marcial": true,
+    "cost": 200,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "placa-runica",
+    "name": "Placa Rúnica",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Armadura gravada com runas.",
+    "category": {
+      "defense_modificator": 11,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 1,
+      "iniciative": -3
+    },
+    "item_type": "armor",
+    "marcial": true,
+    "cost": 250,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "placa-de-aco",
+    "name": "Placa de Aço",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Armadura pesada completa.",
+    "category": {
+      "defense_modificator": 12,
+      "magic_defense_dice": "[AST]",
+      "magic_defense_modificator": 0,
+      "iniciative": -4
+    },
+    "item_type": "armor",
+    "marcial": true,
+    "cost": 300,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "escudo-de-bronze",
+    "name": "Escudo de Bronze",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um escudo simples.",
+    "category": {
+      "defense_modificator": 2,
+      "magic_defense_dice": "",
+      "magic_defense_modificator": 0,
+      "iniciative": 0
+    },
+    "item_type": "shield",
+    "marcial": false,
+    "cost": 100,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  },
+  {
+    "id": "escudo-runico",
+    "name": "Escudo Rúnico",
+    "type": "item",
+    "source": "Livro Básico",
+    "description": "Um escudo com magia defensiva.",
+    "category": {
+      "defense_modificator": 2,
+      "magic_defense_dice": "",
+      "magic_defense_modificator": 2,
+      "iniciative": 0
+    },
+    "item_type": "shield",
+    "marcial": true,
+    "cost": 150,
+    "special_ability": "Sem habilidades especiais.",
+    "magic": false
+  }
+]

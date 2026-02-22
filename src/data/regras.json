@@ -1,0 +1,338 @@
+[
+  {
+    "id": "atributos",
+    "name": "Atributos",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Os Atributos de um personagem são uma representação abstrata de seu treinamento e aptidões em quatro campos:\n\n* **Destreza (DES):** engloba precisão, coordenação, agilidade e reflexos. Necessária para se mover com cuidado, defender-se de ataques, criar objetos e lutar usando armas leves, arcos e armas de fogo.\n* **Vigor (VIG):** engloba capacidade física e robustez. A maioria das armas pesadas exige Vigor. Sua capacidade de resistir à dor e à fadiga também têm ligação com este Atributo, por meio dos Pontos de Vida.\n* **Astúcia (AST):** engloba observação, compreensão e raciocínio. É importante para investigar situações, conjurar feitiços e defender-se contra magia.\n* **Vontade (VON):** engloba determinação, carisma e disciplina. Você utiliza Vontade para diplomacia e persuasão, mas ela também influencia indiretamente sua capacidade de conjurar feitiços e usar poderes especiais, por meio dos Pontos de Mana.\n\nCada Atributo é representado por um tipo de dado, começando no de seis lados (d6) até o poderoso dado de doze lados (d12)."
+  },
+  {
+    "id": "tracos",
+    "name": "Traços",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Cada personagem tem três Traços diferentes:\n\n* **Identidade:** Uma pequena frase que resume o conceito geral do personagem — algo como “pirata celeste” ou “cavaleiro sem rainha”. Você escolhe sua Identidade ao criar o personagem, mas pode alterá-la depois se sentir que evoluiu a ponto de não ser mais representado por esse conceito.\n* **Tema:** Um ideal ou sentimento forte que motiva as ações do seu personagem, como Raiva, Justiça, ou Ambição. Você também o escolhe durante a criação de personagem e pode alterá-lo à medida que ele evoluir durante o jogo.\n* **Origem:** A terra natal do seu personagem.\n\nEnquanto joga, você pode evocar os Traços do seu personagem para aumentar sua chance de sucesso ao rolar dados."
+  },
+  {
+    "id": "lacos",
+    "name": "Laços",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Heróis precisam de conexões para se fortalecer. Laços representam isso.\n\nUm Laço pode ter até três emoções, cada uma pertencente a um de três pares diferentes, como visto na ficha de personagem:\n\n* Admiração ou inferioridade\n* Lealdade ou desconfiança\n* Afeto ou ódio\n\nPara cada emoção em um Laço, a força dele aumenta em um (até o máximo de 3, com uma emoção em cada par).\n\nAssim como Traços, os Laços podem ser evocados para melhorar suas rolagens e sua habilidade de ajudar companheiros."
+  },
+  {
+    "id": "pontos-fabula",
+    "name": "Pontos de Fabula",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Pontos de Fabula são uma poderosa moeda de troca, podendo ser gastos e recuperados. São concedidos ao superar adversidades e gastos para evocar Traços e Laços ou melhorar uma variedade de efeitos especiais. Jogadores também podem gastar Pontos de Fabula para apresentar novos elementos na história e moldar o mundo ao redor de seus personagens!"
+  },
+  {
+    "id": "recursos",
+    "name": "Pontos de Vida, Mana e Inventário",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Esses conjuntos de pontos representam três “recursos” disponíveis a cada PJ.\n\n* **Pontos de Vida (PV):** representam a capacidade de resistir à dor e fadiga.\n* **Pontos de Mana (PM):** representam foco e concentração.\n* **Pontos de Inventário (PI):** são um recurso abstrato que PJs podem gastar para criar itens consumíveis no mesmo instante, como poções e antídotos."
+  },
+  {
+    "id": "testes",
+    "name": "Testes",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "A palavra teste indica uma rolagem usando os dados de Atributos do personagem: Destreza, Vigor, Astúcia e Vontade.\n\nNo geral, personagens devem fazer testes:\n\n* **Quando exigido pelas regras:** Atingir um alvo, conjurar um feitiço e usar um poder de classe são ações que costumam exigir testes para determinar sucesso ou fracasso. Os efeitos que não pedem explicitamente por um teste sempre têm sucesso automático.\n* **Quando o mestre solicitar:** Quando estiver fazendo ações arriscadas, enfrenta oposição ou reage a perigos, o mestre pode pedir que o personagem faça um teste.\n\nCada teste é apresentado com uma fórmula que indica quais dados você precisa rolar e somar. Você sempre rola exatamente dois dados.\n\n### Termos Essenciais\n\n* **Modificador:** Qualquer valor numérico somado ou subtraído de um teste. Por exemplo, se você fizer um teste de 【DES + VIG】 +2, o modificador é “+2”. Modificadores positivos são bônus; negativos são penalidades.\n* **Resultado:** O número gerado pelo teste após aplicar os modificadores. Também pode se referir ao número rolado por cada dado individual.\n* **Nível de dificuldade (ND):** Se o resultado de um teste for maior ou igual ao ND, a ação é bem-sucedida.\n* **Rolagem alta (RA):** Indica o maior resultado dos dois dados de um teste; usada para calcular diversos efeitos (como dano de armas e feitiços)."
+  },
+  {
+    "id": "sucesso-critico",
+    "name": "Sucesso Crítico",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Quando ambos os dados de um teste resultam em um mesmo número igual ou superior a 6, o resultado é um sucesso crítico.\n\nSimplificando: você tem um sucesso crítico ao tirar dois 6, dois 7, dois 8, dois 9, dois 10, dois 11 ou dois 12.\n\nSe fizer um sucesso crítico, você tem sucesso automático no teste e pode aplicar os efeitos de uma oportunidade."
+  },
+  {
+    "id": "falha-critica",
+    "name": "Falha Crítica",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Quando ambos os dados de um teste resultam em 1, o resultado é uma falha crítica — exato oposto de um sucesso crítico. Independentemente dos modificadores, se fizer uma falha crítica, você falha automaticamente no teste — não por incompetência, mas por alguma reviravolta infeliz. Nesse caso, quem controla a oposição da cena recebe uma oportunidade.\n\nQuando um personagem de jogador fizer uma falha crítica, ele imediatamente recebe 1 Ponto de Fabula."
+  },
+  {
+    "id": "oportunidades",
+    "name": "Oportunidades",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Oportunidades são reviravoltas inesperadas — às vezes boas, às vezes ruins. Ao gastar uma oportunidade, você pode escolher uma opção da lista a seguir ou criar uma reviravolta diferente que se encaixe na cena atual. O mestre tem a palavra final sobre a validade de uma oportunidade na situação atual.\n\n| Oportunidade | Efeito |\n| :--- | :--- |\n| **Aflição** | Uma criatura fica abalada, atordoada, fraca ou lenta. |\n| **Avaliar** | Você descobre uma Vulnerabilidade ou um Traço de uma criatura que possa ver. |\n| **Conexão** | Você cria um Laço com algo ou alguém ou adiciona uma emoção a um dos Laços que já tem. |\n| **Desmascarar** | Você descobre objetivos e motivações de uma criatura à sua escolha. |\n| **Favor** | Suas ações garantem apoio ou admiração de uma pessoa ou grupo. |\n| **Informações** | Você detecta uma pista ou detalhe útil. O mestre pode lhe dizer o que é ou pede que você a descreva e/ou invente. |\n| **Item Perdido** | Um item é destruído, perdido, roubado ou abandonado. |\n| **Mancada** | Escolha uma criatura presente na cena: a pessoa que a controla deve interpretar um comentário comprometedor feito por ela. |\n| **Progresso** | Você preenche ou apaga até duas seções de um relógio. |\n| **Reviravolta!** | Alguém ou algo à sua escolha desaparece de repente da cena. |\n| **Vantagem** | O próximo teste feito por você ou por um aliado à sua escolha recebe um bônus de +4. |"
+  },
+  {
+    "id": "como-fazer-um-teste",
+    "name": "Como Fazer um Teste",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "1. O personagem fazendo o teste declara seu objetivo; o mestre também pode esclarecer o que pode ser alcançado com sucesso.\n2. O jogador deve descrever a abordagem de seu personagem na situação, ou seja, a maneira como quer alcançar o objetivo.\n3. Com base nessa abordagem, o mestre escolhe quais Atributos devem ser rolados, como 【DES + VIG】 ou 【VON + VON】.\n4. O mestre declara o nível de dificuldade (ND) do teste usando a tabela de referência.\n5. O mestre também deve informar ao jogador as consequências de uma falha, garantindo que todos entendam o que está em risco.\n6. O personagem rola os dados adequados, somando-os e aplicando os modificadores de poderes, feitiços, equipamentos e outros efeitos. Se o personagem fez uma falha crítica ou sucesso crítico, aplique seus efeitos (incluindo o fracasso ou sucesso automático). Do contrário... se o resultado de um teste for maior ou igual ao ND, o personagem passa no teste. Se for menor, o personagem falha.\n7. Por fim, o desenrolar do teste altera a situação atual: ou o personagem alcança seu objetivo ou as coisas acabam piorando."
+  },
+  {
+    "id": "nivel-dificuldade",
+    "name": "Nível de Dificuldade (ND)",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "O nível de dificuldade (ND) de um teste determina o quanto uma ação é complexa e arriscada. É uma abstração de diversos elementos em um único número.\n\n| ND | Dificuldade da ação | Quem consegue fazer isso? |\n| :--- | :--- | :--- |\n| **7** | Fácil | Qualquer um com pouco treino ou talento natural. |\n| **10** | Normal | Pessoas competentes ou muito talentosas. |\n| **13** | Difícil | Especialistas ou prodígios. |\n| **16** | Muito Difícil | Os maiores mestres no assunto. |\n\n### Na dúvida, ND 10\nSe você for o mestre e estiver em dúvida sobre o ND de um teste, use 10: não é muito baixo nem muito alto e é fácil de lembrar."
+  },
+  {
+    "id": "testes-opostos",
+    "name": "Testes Opostos",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "São a maneira mais rápida de determinar o resultado de competições entre personagens, como corridas, perseguições ou debates.\n\nCada personagem participando do teste oposto faz o mesmo teste de Atributo, sem ND. Vence quem tiver o maior resultado. Em caso de empate, os personagens que rolaram o mesmo resultado repetem o teste até que um deles vença.\n\nNesses testes, falha crítica é o menor resultado possível e sucesso crítico é o maior; ambos geram oportunidades como de costume. Se dois ou mais personagens rolarem falha crítica ou sucesso crítico, eles empatam e os testes devem ser repetidos."
+  },
+  {
+    "id": "testes-abertos",
+    "name": "Testes Abertos",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Este tipo de teste não tem ND. Em vez disso, o resultado mostra quão bem o personagem se saiu. Geralmente, esses testes são usados para pesquisar informações, examinar uma área ou lembrar coisas importantes.\n\n| Resultado | Igual... |\n| :--- | :--- |\n| **7+** | Ao que pode ser feito por alguém com algum treino ou talento. |\n| **10+** | Ao que pode ser feito por alguém competente ou muito talentoso. |\n| **13+** | Ao feito de um especialista ou de um verdadeiro prodígio. |\n| **16+** | A um resultado digno de ser lembrado ao longo das eras. |"
+  },
+  {
+    "id": "testes-em-grupo",
+    "name": "Testes em Grupo",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Os personagens dos jogadores podem cooperar para aumentar suas chances de sucesso em situações específicas. Testes em grupo funcionam assim:\n\n1. Os PJs nomeiam um líder: o personagem que faz o teste final para determinar o resultado da ação. Os demais serão personagens apoiadores.\n2. Cada personagem apoiador faz um teste de Apoio idêntico ao do líder, mas com ND fixo de 10.\n3. Cada personagem apoiador bem-sucedido concede um bônus de +1 ao teste do líder.\n4. Se qualquer personagem apoiador bem-sucedido tiver um Laço com o líder, some a força mais alta dentre esses Laços ao teste do líder. Lembre-se: some apenas a força de Laço mais alta.\n5. O líder faz o teste final, que funciona como de costume, podendo gerar oportunidades em caso de falha crítica ou sucesso crítico.\n\nA consequência do teste afeta todos que participaram do teste em grupo."
+  },
+  {
+    "id": "modificadores-situacionais",
+    "name": "Modificadores Situacionais",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Quando um personagem faz um teste em situações vantajosas ou desvantajosas, o mestre pode impor um bônus de +2 ou uma penalidade de –2 ao resultado."
+  },
+  {
+    "id": "evocando-tracos",
+    "name": "Evocando Traços",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "PJs podem tentar virar o jogo evocando um Traço: Identidade, Origem ou Tema.\n\nAo fazer um teste, um PJ pode gastar 1 Ponto de Fabula e evocar um de seus Traços para rolar novamente um ou ambos os dados, substituindo a rolagem antiga pela nova. Isso pode ser feito qualquer número de vezes em uma mesma evocação, mas cada nova rolagem (de um ou dois dados) custa outro Ponto de Fabula.\n\nVocê não pode evocar um Traço se seu personagem fez uma falha crítica."
+  },
+  {
+    "id": "evocando-lacos",
+    "name": "Evocando Laços",
+    "type": "rule",
+    "category": "resolucao_acoes",
+    "source": "Livro Básico",
+    "description": "Assim como Traços podem ser usados para rolar novamente, Laços — sentimentos do personagem pelos outros — permitem aumentar o resultado dos testes.\n\nAo fazer um teste, um PJ pode gastar 1 Ponto de Fabula e evocar um de seus Laços para somar sua força ao resultado.\n\nVocê pode fazer isso apenas uma vez por teste."
+  },
+  {
+    "id": "iniciativa",
+    "name": "Iniciativa",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "O modificador de Iniciativa de um personagem indica a chance que ele tem de começar na vantagem durante um conflito.\n\n* No início de cada conflito, PJs fazem um teste em grupo de Iniciativa; esse teste em grupo é feito com Destreza e Astúcia.\n* O ND do teste do líder é igual à Iniciativa mais alta entre os adversários dos heróis. Os personagens apoiadores fazem seus próprios testes de Apoio contra o ND padrão de 10.\n\nTanto como líder quanto como apoiador no teste em grupo, aplique seu modificador de Iniciativa ao seu resultado.\n\nSe o líder tiver sucesso, os heróis vencem a iniciativa nesse conflito; o primeiro a agir em cada rodada será alguém do seu lado. Se o líder falhar, os PJs perdem a iniciativa no conflito e o primeiro a agir em cada rodada será um dos adversários."
+  },
+  {
+    "id": "rodadas-e-turnos",
+    "name": "Rodadas e Turnos",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Cenas de conflito ocorrem em uma série de rodadas consecutivas.\n\nA cada rodada, os participantes alternam entre turnos, começando por um participante do lado que venceu a iniciativa.\n\n* Só é possível fazer uma ação por turno.\n* Personagens não podem “passar” o turno se tiverem a oportunidade de agir.\n* Às vezes, um lado estará em menor número em comparação com seus adversários. Se isso ocorrer, continue alternando os turnos e deixe o lado com vantagem numérica jogar os turnos que sobrarem no fim da rodada.\n\nA rodada termina quando todos os participantes tiverem feito o turno (ou turnos, no caso de algumas criaturas muito poderosas) à sua disposição."
+  },
+  {
+    "id": "acoes-conflito",
+    "name": "Ações de Conflito",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Ao fazer ações, é importante lembrar que elas não são apenas gestos, mas o foco do seu turno e uma escolha tática precisa.\n\n| Ação | Descrição |\n| :--- | :--- |\n| **Ataque** | Você faz um ataque corpo a corpo ou à distância. |\n| **Poder** | Alguns poderes exigem que você gaste uma ação. |\n| **Feitiço** | Você conjura um dos feitiços que aprendeu. |\n| **Estudo** | Você tenta obter informações sobre alguém ou algo. Geralmente requer um teste aberto de 【AST + AST】. |\n| **Guarda** | Uma vez por turno. Até o início de seu próximo turno: você ganha Resistência a todos os tipos de dano; você ganha +2 em testes opostos; você pode dar cobertura a outra criatura e impedir que inimigos façam ataques corpo a corpo contra ela. |\n| **Impedimento** | Você faz um teste (ND 10) contra um oponente. Em um sucesso, você o deixa abalado, atordoado, fraco ou lento. |\n| **Objetivo** | Você trabalha para cumprir um objetivo do conflito. Isso exige um teste de Atributo ou um teste oposto. Objetivos complexos costumam exigir um relógio. |\n| **Inventário** | Você gasta Pontos de Inventário para criar e usar um item consumível imediatamente. |\n| **Equipamento** | Você alterna qualquer número de itens equipados com qualquer número de itens na sua mochila. Esta ação não se aplica a armaduras. |\n| **Outro** | Você faz uma ação que não está listada acima, negociando sua resolução e efeitos com o mestre. |"
+  },
+  {
+    "id": "ataque-dano",
+    "name": "Ataque e Dano",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Você pode gastar uma ação para fazer uma manobra ofensiva usando uma das armas à sua disposição.\n\n1. Escolha um alvo para seu ataque. Você precisa saber a posição do alvo e deve ser capaz de vê-lo. Você precisa alcançar o alvo com a arma que está usando.\n2. Faça um teste de Precisão, usando a fórmula indicada pela arma usada no ataque. O ND é igual à Defesa do alvo. Em um sucesso, você o atinge.\n3. Se atingir o alvo, você causa uma quantidade de dano indicada pela fórmula da arma usada no ataque. Geralmente é a soma da rolagem alta (o maior resultado dos dois dados) do seu teste de Precisão a um valor fixo definido pela arma."
+  },
+  {
+    "id": "afinidades-dano",
+    "name": "Afinidades de Dano",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Algumas criaturas têm Afinidade com certos tipos de dano, em geral devido à sua espécie.\n\n* **Vulnerabilidade:** Criaturas Vulneráveis a um tipo de dano perdem o dobro da quantidade normal de PV quando sofrem dano desse tipo.\n* **Resistência:** Criaturas Resistentes a um tipo de dano perdem somente a metade da quantidade normal de PV quando sofrem dano desse tipo.\n* **Imunidade:** Criaturas Imunes a um tipo de dano não perdem PV quando sofrem dano desse tipo.\n* **Absorção:** Criaturas Absorvedoras de um tipo de dano não perdem PV; em vez disso, recuperam uma quantidade de PV igual ao dano que sofreriam."
+  },
+  {
+    "id": "condicoes",
+    "name": "Condições",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Personagens dos jogadores e NPCs podem sofrer condições, em geral como consequência de ataques e feitiços.\n\n| Condição | Descrição |\n| :--- | :--- |\n| **Abalado** | Temporariamente reduz o dado de Vontade em um. |\n| **Atordoado** | Temporariamente reduz o dado de Astúcia em um. |\n| **Enfurecido** | Temporariamente reduz o dado de Destreza e Astúcia em um. |\n| **Envenenado** | Temporariamente reduz o dado de Vigor e Vontade em um. |\n| **Fraco** | Temporariamente reduz o dado de Vigor em um. |\n| **Lento** | Temporariamente reduz o dado de Destreza em um. |\n\nSeus Atributos não podem ter um tipo de dado inferior a d6. Caso um personagem tenha uma condição e seja afetado por ela mais uma vez, nada acontece."
+  },
+  {
+    "id": "feiticos",
+    "name": "Feitiços",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "Feitiços são fórmulas mágicas codificadas, desenvolvidas para proteger guerreiros e viajantes; sua aplicação é primariamente ofensiva ou defensiva. São fáceis de aprender e podem ser conjurados com um pequeno gesto, mas carecem de flexibilidade.\n\n### Como Lançar um Feitiço\nPara lançar um feitiço, você precisa cumprir os seguintes requisitos:\n* Você deve ser capaz de mover seu corpo, principalmente os braços, mas pode estar segurando itens.\n* Você deve poder falar e pronunciar a invocação.\n* Você deve ter PM suficientes para pagar o custo total de PM do feitiço, incluindo qualquer quantidade de PM adicional para aprimorar seu efeito.\n* Você deve estar vendo os alvos, a menos que esteja conjurando um feitiço com alvo pessoal ou especial."
+  },
+  {
+    "id": "feiticos-ofensivos",
+    "name": "Feitiços Ofensivos (r)",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "Feitiços com o ícone (r) ao lado do nome são ofensivos.\n\nAo lançar um feitiço ofensivo, você faz o teste de Magia adequado e a Defesa Mágica do alvo determina o ND. O feitiço afeta cada alvo cuja Defesa Mágica for igual ou menor ao resultado total do teste de Magia. Se o feitiço tiver vários alvos, ele afeta aqueles com Defesa Mágica menor que o resultado do teste de Magia (como em um ataque multi).\n\nEm um sucesso crítico nesse teste, todos alvos são atingidos automaticamente.\n\n### Dano e Efeitos de Feitiço\nVários feitiços usam cálculos para definir a potência de seus efeitos usando sua rolagem alta (RA) — para isso, escolha o dado mais alto rolado no teste de Magia."
+  },
+  {
+    "id": "feiticos-furtividade",
+    "name": "Feitiços e Furtividade",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "Movimentos precisos e encantamentos verbais que produzem efeitos visíveis e fantásticos são necessários para lançar feitiços. Por isso, todos nos arredores sabem de imediato quando um feitiço está sendo lançado e quem é o conjurador — ou seja, é impossível lançar feitiços de forma furtiva."
+  },
+  {
+    "id": "rituais",
+    "name": "Rituais",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "Rituais são efeitos mágicos complexos, feitos para vencer obstáculos específicos: ao serem realizados, sempre começam do zero e levam vários minutos para serem concluídos. Embora sejam poderosos e extremamente flexíveis, rituais consomem muitos PM e exigem testes de Magia difíceis; além disso, falhar em um ritual faz com que a magia saia do controle do conjurador.\n\n1. Descreva o que quer fazer com seu ritual e declare qual área ou criaturas deseja afetar.\n2. O mestre tem a palavra final sobre a possibilidade de criar um efeito e determina a disciplina da qual o ritual faz parte.\n3. Consultando as tabelas de área e potência, o mestre determina o custo total do ritual em PM.\n4. O ritual é lançado seguindo o procedimento normal de feitiços, mas sempre requer um teste de Magia com resultado igual ou maior a um ND baseado na potência do ritual. O teste utiliza os Atributos indicados pela disciplina do ritual.\n\nEm um sucesso, o ritual tem o efeito desejado; em uma falha, o mestre descreve como os efeitos foram distorcidos de maneira catastrófica."
+  },
+  {
+    "id": "tabela-rituais",
+    "name": "Potência e Área de Rituais",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "| Potência | PM / ND | Exemplos |\n| :--- | :--- | :--- |\n| **Menor** | 20 (ND 7) | Criar um lampejo, bloquear uma passagem, quebrar um vidro. |\n| **Média** | 30 (ND 10) | Criar uma ilusão, tratar uma doença, localizar alguém ou algo, sentir emoções, fornecer energia a curto prazo. |\n| **Maior** | 40 (ND 13) | Sentir pensamentos, influenciar emoções, dissipar maldição, mudar o clima por um tempo, fornecer energia a longo prazo. |\n| **Extrema** | 50 (ND 16) | Enfraquecer uma entidade divina, evitar uma catástrofe, alterar uma criatura ou local por uma semana. |\n\n| Área | Multiplicador de PM | Exemplos |\n| :--- | :--- | :--- |\n| **Individual** | x1 | Uma criatura de tamanho humano, um objeto, uma árvore. |\n| **Pequena** | x2 | Algumas criaturas de tamanho humano, uma criatura grande, uma pequena clareira, um cômodo, um vagão de trem, uma casa. |\n| **Grande** | x3 | Uma multidão, uma pequena floresta, uma aeronave ou galeão, um salão de castelo, uma casa, uma criatura gigante. |\n| **Enorme** | x4 | Uma fortaleza, um lago, um cume de montanha, uma aldeia, um quarteirão de cidade. |"
+  },
+  {
+    "id": "limites-rituais",
+    "name": "Limites da Magia Ritualística",
+    "type": "rule",
+    "category": "magia_rituais",
+    "source": "Livro Básico",
+    "description": "A magia ritualística nunca pode fazer isso:\n\n* **Causar dano direto.** O ritual ainda pode causar danos colaterais — se você abrir uma fenda sob os inimigos, eles podem sofrer ferimentos.\n* **Causar ou remover condições.**\n* **Fazer os personagens perderem ou ganharem PV, PM, PI, Pontos de Fabula ou Pontos de Ultima.**\n* **Replicar os benefícios mecânicos de um feitiço ou poder existente** (no entanto, efeitos narrativos, como teletransporte e voo, são permitidos, ainda que alguns poderes os concedam).\n* **Criar criaturas ou equipamentos ou lhes conceder habilidades permanentes.**"
+  },
+  {
+    "id": "pontos-inventario",
+    "name": "Pontos de Inventário (PI)",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Pontos de Inventário (PI) representam uma reserva abstrata de equipamentos úteis e itens consumíveis que os PJs têm.\n\nVia de regra, um personagem pode carregar o máximo de 6 PI.\n\nSempre que precisar de um item consumível... você pode gastar uma quantidade adequada de PI para criá-lo em sua mochila e aplicar o efeito dele — todos os PI gastos dessa forma devem vir do mesmo personagem.\n\nDepois de criado, o item deve ser usado imediatamente e é destruído no processo. Não é possível criar algo e “guardar para depois”."
+  },
+  {
+    "id": "acao-inventario",
+    "name": "Ação: Inventário",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Você cria um item do seu inventário e o usa imediatamente, como parte da mesma ação. Por exemplo: é possível dar uma poção a um aliado ou passar-lhe um bálsamo refrescante durante uma negociação tensa.\n\nSe o item que você quer usar exige que esteja perto do alvo e algo ou alguém bloqueia o caminho, o mestre pode pedir um teste."
+  },
+  {
+    "id": "mochila-itens-equipados",
+    "name": "Mochila e Itens Equipados",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "O PJ pode equipar um número limitado de itens no corpo. Você tem:\n\n* Um espaço de equipamento para sua armadura.\n* Um espaço de equipamento da mão dominante para equipar uma arma de uma mão ou uma arma de duas mãos. Uma arma de duas mãos equipada também ocupa o espaço da mão não dominante.\n* Um espaço de equipamento da mão não dominante para equipar uma arma de uma mão ou um escudo.\n* Um espaço de equipamento para o acessório.\n\nQualquer item não equipado fica na sua mochila. Não há limite de quantos itens você pode carregar nela, desde que faça sentido."
+  },
+  {
+    "id": "acao-equipamento",
+    "name": "Ação: Equipamento",
+    "type": "rule",
+    "category": "combate_conflito",
+    "source": "Livro Básico",
+    "description": "Você pode guardar um número qualquer de itens equipados na mochila, bem como retirar qualquer número de itens e equipá-los. A única coisa que você não pode equipar ou guardar é sua armadura — não há tempo para fazer isso em uma única ação.\n\nAinda assim, o mestre pode permitir que você remova ou equipe uma armadura se gastar vários turnos fazendo isso."
+  },
+  {
+    "id": "zenite",
+    "name": "Zênite",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Zênite é uma moeda de ouro com formato e tamanho que varia entre regiões, é a moeda comum a todos os mundos de Fabula Ultima. Seu valor pode ser maior ou menor dependendo do local, mas o zênite é aceito no mundo todo."
+  },
+  {
+    "id": "recuperando-pi",
+    "name": "Recuperando Pontos de Inventário",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Os personagens podem recuperar seus PI em vilas, aldeias ou outros locais que lhes permitam comprar equipamentos úteis: o custo é de 10 zênites para cada PI que quiserem recuperar.\n\nOs PI atuais de um personagem nunca podem exceder os PI máximos."
+  },
+  {
+    "id": "equipamento-ferramentas",
+    "name": "Equipamento e Ferramentas",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Assume-se que todos os PJs carregam equipamentos e ferramentas adequadas às suas Identidades ou seus papéis como aventureiros, portanto não é necessário registrar o uso de tochas, cordas, cobertores etc.\n\nUm PJ pode precisar de um item incomum ou que não se encaixe em sua Identidade. Quando isso acontecer, o mestre pode permitir que ele gaste PI (em média de 2 a 4) para “milagrosamente” pegar o item em questão da mochila."
+  },
+  {
+    "id": "vendendo-itens",
+    "name": "Vendendo Itens",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Qualquer item pode ser vendido pela metade do preço original. Esse valor pode ser modificado pela qualidade e condição do item: ninguém vai querer machados enferrujados e enlameados obtidos em túneis velhos.\n\n### Artefatos\nDada sua natureza, artefatos não podem ser comprados ou vendidos."
+  },
+  {
+    "id": "dias-de-viagem",
+    "name": "Dias de Viagem",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Quando o grupo parte em uma jornada, o mestre registra sua movimentação na ficha de mapa. A unidade básica desse sistema é o dia de viagem, que indica a distância média percorrida pelo mapa em um dia, presumindo que os personagens estão a pé.\n\nDurante a criação de mundo, o mestre deve estabelecer, junto ao grupo, a duração de um dia de viagem na ficha de mapa.\n\nPara simplificar, os dias de viagem devem sempre ser arredondados para cima, para o próximo número inteiro — uma jornada que leva dois dias e meio, por exemplo, é arredondada para três dias."
+  },
+  {
+    "id": "rolagem-de-viagem",
+    "name": "A Rolagem de Viagem",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Como mestre, realize as seguintes etapas para cada dia de viagem da jornada:\n\n1. Determine o nível de ameaça das áreas pelas quais o grupo passa (veja a tabela de nível de ameaça). Se houver mais de um nível de ameaça, aplique apenas o mais alto.\n2. Faça uma rolagem de viagem com o dado adequado ao nível de ameaça.\n3. Em um resultado igual ou superior a 6, o grupo encontra um perigo! Em um resultado 1, o grupo faz uma descoberta inesperada!\n\nVocê decide o local de cada perigo e descoberta; se precisar, marque a posição deles na sua ficha de mapa.\n\nA menos que sejam parados por um perigo, os personagens seguem para o próximo dia de viagem (volte à etapa 1) ou chegam ao seu destino."
+  },
+  {
+    "id": "nivel-ameaca",
+    "name": "Nível de Ameaça",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "É evidente que uma área patrulhada sob controle inimigo, ou uma pradaria tomada por monstros hostis, representa um perigo alto ou muito alto.\n\nO mestre tem a palavra final sobre o nível de ameaça de um dia de viagem.\n\n| Nível de ameaça | Dado de viagem | Áreas de exemplo |\n| :--- | :--- | :--- |\n| **Mínimo** | d6 | Aldeias, cidades, áreas protegidas |\n| **Baixo** | d8 | Pradarias, estradas patrulhadas, zonas interioranas |\n| **Médio** | d10 | Bosques, colinas, rios |\n| **Alto** | d12 | Florestas, montanhas, mar aberto, pântanos |\n| **Muito alto** | d20 | Desertos, ermos gélidos, selvas, vulcões |"
+  },
+  {
+    "id": "perigos",
+    "name": "Perigos (6+)",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Os personagens devem ser capazes de evitar um perigo por meio de uma série de testes ou em uma cena de conflito. Exemplos de perigos são:\n\n* Condições climáticas rigorosas, como tempestades de areia ou frio intenso.\n* Pântanos poluídos, tomados por miasmas tóxicos ou mortos-vivos famintos.\n* Monstros ferozes e territoriais ou grupos de criaturas hostis.\n* Encontros repentinos e infelizes com rivais ou antagonistas.\n* Riscos de perder itens importantes.\n\nDetermine o dano de um perigo usando a tabela a seguir:\n\n| Nível | Dano fraco | Dano forte | Dano intenso |\n| :--- | :--- | :--- | :--- |\n| **5+** | 10 | 30 | 40 |\n| **20+** | 20 | 40 | 60 |\n| **40+** | 30 | 50 | 80 |\n\nCondições também podem ser uma boa consequência para perigos: o pântano poluído mencionado acima, por exemplo, pode deixar os PJs envenenados."
+  },
+  {
+    "id": "descobertas",
+    "name": "Descobertas (1)",
+    "type": "rule",
+    "category": "mundo_exploracao",
+    "source": "Livro Básico",
+    "description": "Descobertas não acontecem com tanta frequência, portanto o mestre deve fazer com que cada uma seja especial e útil. Exemplos de descobertas são:\n\n* Uma protegida entrada para uma ruína antiga. Que tesouros ela guarda?\n* Uma caravana mercante ou um grupo de criaturas solícitas.\n* Uma aldeia reclusa ou um refúgio desconhecido.\n* Um item precioso ou uma informação.\n\nLembre-se que descobertas são sempre boas: mesmo se for um local perigoso, a recompensa que ele guarda deve compensar muito."
+  }
+]

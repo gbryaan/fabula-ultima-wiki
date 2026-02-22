@@ -1,65 +1,93 @@
-import Image from "next/image";
+import Link from "next/link"
+import Header from "@/components/organisms/Header"
 
-export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+export default function HomePage(){
+    const character_pages = ['equipamentos']
+    const rules_pages = [
+        {"nome" : "Combate", "pagina" : "combate_conflito/iniciativa"},
+        {"nome" : "Magia e Rituais", "pagina" : "magia_rituais/feiticos"},
+        {"nome" : "Mundo e Exploração", "pagina" : "mundo_exploracao/pontos-inventario"},
+        {"nome" : "Personagem", "pagina" : "personagem/atributos"},
+        {"nome" : "Ações", "pagina" : "resolucao_acoes/testes"}
+    ]
+
+    return(
+
+        <div>
+                <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark  sticky top-0 z-10 shadow-sm">
+                    <Header></Header>
+                </header>   
+
+    <main className='flex flex-col items-center min-h-screen bg-parchment py-12 px-4'>
+
+            
+
+                <div className="w-full max-w-5xl flex flex-col items-center space-y-20">
+
+
+                    
+                    {/* --- SEÇÃO: PERSONAGEM --- */}
+                    <section className="flex flex-col items-center w-full">
+                        <h2 className="text-4xl font-antonio text-arcane-dark tracking-widest uppercase mb-12 border-b-2 border-crimson/30 pb-2 flex items-center gap-3">
+                            <span className="text-crimson">✦</span> Personagem
+                        </h2>
+                        
+                        {/* flex-wrap garante que não quebre se a tela for menor */}
+                        <ul className="flex flex-wrap justify-center gap-12">
+                            <li key={"classe"}>
+                                <Link href={`/character/classes/andarilho`} className="flex flex-col items-center gap-4 group">
+                                    <div className="w-24 h-24 rounded-full border-2 border-arcane/20 bg-parchment-dark shadow-sm flex items-center justify-center group-hover:border-crimson group-hover:bg-crimson/5 transition-all duration-300 transform group-hover:-translate-y-1">
+                                        <span className="text-3xl text-arcane/30 group-hover:text-crimson/60 transition-colors">⚔️</span>
+                                    </div>
+                                    <span className="font-antonio tracking-widest text-lg text-slate-600 uppercase group-hover:text-arcane-dark transition-colors">Classes</span>
+                                </Link>
+                            </li>
+
+                            <li key={"ritual"}>
+                                <Link href={`/character/rituais/Chimerism`} className="flex flex-col items-center gap-4 group">
+                                    <div className="w-24 h-24 rounded-full border-2 border-arcane/20 bg-parchment-dark shadow-sm flex items-center justify-center group-hover:border-crimson group-hover:bg-crimson/5 transition-all duration-300 transform group-hover:-translate-y-1">
+                                        <span className="text-3xl text-arcane/30 group-hover:text-crimson/60 transition-colors">✨</span>
+                                    </div>
+                                    <span className="font-antonio tracking-widest text-lg text-slate-600 uppercase group-hover:text-arcane-dark transition-colors">Rituais</span>
+                                </Link>
+                            </li>
+                            
+                            {character_pages.map(c => (
+                            <li key={c}>
+                                <Link href={`/character/${c}`} className="flex flex-col items-center gap-4 group">
+                                    <div className="w-24 h-24 rounded-full border-2 border-arcane/20 bg-parchment-dark shadow-sm flex items-center justify-center group-hover:border-crimson group-hover:bg-crimson/5 transition-all duration-300 transform group-hover:-translate-y-1">
+                                        <span className="text-3xl text-arcane/30 group-hover:text-crimson/60 transition-colors">🛡️</span>
+                                    </div>
+                                    <span className="font-antonio tracking-widest text-lg text-slate-600 uppercase group-hover:text-arcane-dark transition-colors">{c}</span>
+                                </Link>
+                            </li>
+                            ))}
+                        </ul>
+                    </section>
+
+                    {/* --- SEÇÃO: REGRAS --- */}
+                    <section className="flex flex-col items-center w-full">
+                        <h2 className="text-4xl font-antonio text-arcane-dark tracking-widest uppercase mb-12 border-b-2 border-crimson/30 pb-2 flex items-center gap-3">
+                            <span className="text-crimson">✦</span> Regras
+                        </h2>
+                        
+                        <ul className="flex flex-wrap justify-center gap-12 max-w-4xl">
+                            {rules_pages.map(c => (
+                            <li key={c.nome}>
+                                <Link href={`/rules/${c.pagina}`} className="flex flex-col items-center gap-4 group text-center w-32">
+                                    <div className="w-24 h-24 rounded-full border-2 border-arcane/20 bg-parchment-dark shadow-sm flex items-center justify-center group-hover:border-crimson group-hover:bg-crimson/5 transition-all duration-300 transform group-hover:-translate-y-1">
+                                        <span className="text-3xl text-arcane/30 group-hover:text-crimson/60 transition-colors">📜</span>
+                                    </div>
+                                    <span className="font-antonio tracking-widest text-base text-slate-600 uppercase group-hover:text-arcane-dark transition-colors leading-tight">{c.nome}</span>
+                                </Link>
+                            </li>
+                            ))}
+                        </ul>
+                    </section>
+                    
+                </div>
+            </main>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+        
+    )
 }

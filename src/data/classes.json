@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "andarilho",
+    "name": "Andarilho",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 176,
+    "quote": "Fronteiras são um truque da mente.",
+    "description": "Nômades procurando um continente mitológico, exploradores desbravando os ermos, caçadores viajantes têm uma coisa em comum: são Andarilhos.\n\nEmbora a maioria dos heróis viaje pelo mundo durante suas aventuras, Andarilhos vivem pela jornada, sempre dispostos a visitar novos lugares e aprender com os outros.\n\nAos olhos de um Andarilho, a natureza não é uma inimiga ou aliada, mas uma professora severa que pode revelar muitas verdades esquecidas.",
+    "questions": [
+      "O que motiva você a viver viajando? Foi escolha sua? Você se cansou?",
+      "Há um lugar que você considera um \"lar\"?",
+      "Você visitou muitas pessoas e lugares. Tem algo que não consegue esquecer?",
+      "Você perdeu algo ou alguém por conta de suas viagens. O que aconteceu?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Caçador de Tesouros",
+        "max_level": 2,
+        "description": "Quando seu grupo se aventura pelo mapa do mundo, você faz uma descoberta se tirar 【NP + 1】 ou menos na rolagem de viagem (em vez de apenas 1)."
+      },
+      {
+        "name": "Companheiro Fiel",
+        "max_level": 5,
+        "description": "Com a ajuda do grupo, crie um NPC construto, elemental, fera ou planta de nível 5 para ser seu companheiro: essa criatura não tem iniciativa e não sobe de nível, pode ter no máximo dois ataques básicos, ganha um bônus em testes de **Precisão** e **Magia** igual a 【NP】 e seus PV máximos são iguais a 【(NP × 5) + metade do seu nível】. Você pode gastar sua ação para fazê-lo realizar uma ação no seu turno (uma vez por turno) - ele não age de outra forma. Se o seu companheiro for afetado por efeitos de turno, ele é afetado no seu turno. Seu companheiro entra e sai de cena com você e ganha os mesmos benefícios de descanso. Se ficar com 0 PV, ele foge e reencontra você no início da próxima cena em que estiver. Quando reaparece, está com metade dos PV máximos."
+      },
+      {
+        "name": "Papo de Taverna",
+        "max_level": 3,
+        "description": "Ao descansar em uma estalagem ou taverna, você pode fazer 【NP】 perguntas ao mestre sobre os arredores e habitantes. O mestre deve responder com informações verdadeiras, mas você deve descrever como obteve tais informações."
+      },
+      {
+        "name": "Prático",
+        "max_level": 4,
+        "description": "Você recupera 【NP】 PI após cada rolagem de viagem."
+      },
+      {
+        "name": "Viajante",
+        "max_level": 1,
+        "description": "Você reduz o dado rolado em suas rolagens de viagem em um (mínimo d6). Se mais de um personagem tiver este poder, os efeitos não são cumulativos."
+      }
+    ]
+  },
+  {
+    "id": "arcanista",
+    "name": "Arcanista",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 178,
+    "quote": "Alguns destinos não podem ser evitados.",
+    "description": "Arcanistas podem entrar em um transe profundo e temporariamente projetar uma porção considerável da sua alma para fora do corpo, concedendo-lhe forma física. Cercado por esta névoa mágica, o Arcanista ganha várias habilidades sobrenaturais.\n\nDizem que essas formas invocadas são manifestações das almas ancestrais que pertencem a entidades mitológicas chamadas de Arcanos.\n\nEm alguns mundos, os Arcanos são cultuados como divindades.",
+    "questions": [
+      "De onde vêm seus poderes? São um presente de sua linhagem sanguínea? Você já se comunicou com um Arcano ou eles são quietos e distantes?",
+      "As pessoas consideram você alguém misterioso, poderoso ou sobrenatural?",
+      "Há muitos praticando a sua magia ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Arcanismo Ritualista",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina arcanismo, desde que seus efeitos estejam entre os domínios de um ou mais Arcanos que você vinculou. Rituais de arcanismo usam 【VON + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Arcano Emergencial",
+        "max_level": 6,
+        "description": "Enquanto estiver em **Crise**, o custo de invocar seu Arcano é reduzido em 【NP × 5】."
+      },
+      {
+        "name": "Círculo Arcano",
+        "max_level": 4,
+        "description": "Em seu turno, após dispensar voluntariamente um Arcano durante um conflito, se esse Arcano não foi invocado durante esse mesmo turno e você tem uma arma arcana equipada, você pode imediatamente fazer a ação **Feitiço** sem custo. O feitiço que você conjurar dessa forma deve ter um custo total de PM igual ou inferior a 【NP × 5】 e você ainda deve pagar seu custo em PM."
+      },
+      {
+        "name": "Regeneração Arcana",
+        "max_level": 5,
+        "description": "Ao invocar um Arcano, você imediatamente recupera 【NP × 5】 PV."
+      },
+      {
+        "name": "Vincular e Invocar",
+        "max_level": 2,
+        "description": "Você pode vincular Arcanos à sua alma para invocá-los em um momento posterior. Na primeira vez que você encontrar o Arcano em questão, o mestre lhe dirá os detalhes que envolvem cada processo de vinculação. Você pode usar uma ação e gastar 40 PM para invocar um Arcano que já vinculou. Se escolher este poder na criação de personagem, você começa o jogo já vinculado a um Arcano, à sua escolha. Para além disso, só se pode obter novos Arcanos explorando e avançando na história."
+      }
+    ]
+  },
+  {
+    "id": "atirador",
+    "name": "Atirador",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 184,
+    "quote": "Fuja até o outro canto do mundo; minha flecha ainda encontrará você.",
+    "description": "A maioria dos Atiradores é excepcional em lidar com ameaças a uma distância cuidadosamente calculada; outros são corajosos, habilidosos ou imprudentes o bastante para enfrentar os adversários de perto.\n\nEmbora muitos desses combatentes sejam soldados habilidosos, alguns caíram na pirataria, na caça a recompensas ou na bandidagem. Outros colocam suas habilidades a serviço do povo ou as usam para proteger um local sagrado ou proibido contra intrusos.",
+    "questions": [
+      "Alguns acreditam que flechas e balas são armas de covardes. E você?",
+      "Se for pego desprevenido, você improvisa ou recua?",
+      "Você é discreto e reservado, confiante e astuto ou expansivo e imprudente?",
+      "Qual a aparência de suas armas e estilo de luta?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armas à distância e escudos marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Barragem",
+        "max_level": 2,
+        "description": "Ao fazer um ataque à distância, você pode gastar 10 PM para escolher uma opção: o ataque ganha **multi (2)**; ou você aumenta em +1 a propriedade **multi** do ataque, até o máximo de **multi (3)**."
+      },
+      {
+        "name": "Fogo Cruzado",
+        "max_level": 1,
+        "description": "Quando uma criatura que você possa ver faz um ataque à distância, pode gastar um total de PM igual ao teste de **Precisão** dela para fazer o ataque falhar automaticamente contra todos os alvos. Você só pode usar este poder se tiver uma arma à distância equipada. Este poder não funciona se o teste de **Precisão** da criatura for um **sucesso crítico**."
+      },
+      {
+        "name": "Maestria com Armas à Distância",
+        "max_level": 4,
+        "description": "Você ganha um bônus igual a 【NP】 em testes de **Precisão** à distância."
+      },
+      {
+        "name": "Olhos de Águia",
+        "max_level": 5,
+        "description": "Quando faz a ação **Guarda**, se escolher não dar cobertura a outra criatura, você pode escolher uma opção: o próximo ataque à distância que você fizer na cena atual causa 【NP × 2】 de dano adicional ou você pode imediatamente fazer um ataque livre com um arco ou arma de fogo equipada, considerando sua RA como 0 ao calcular o dano causado por este ataque."
+      },
+      {
+        "name": "Tiro de Aviso",
+        "max_level": 4,
+        "description": "Depois de atingir um ou mais alvos com um ataque à distância, você pode escolher não causar dano. Se fizer isso, escolha uma opção: cada alvo atingido pelo ataque fica **abalado**; ou fica **lento**; ou perde 【NP × 10】 PM. Descreva como você faz essa manobra!"
+      }
+    ]
+  },
+  {
+    "id": "elementalista",
+    "name": "Elementalista",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 186,
+    "quote": "Ignore os avisos deste mundo por sua conta e risco.",
+    "description": "Os Elementalistas aprendem a canalizar as almas que fluem dentro dos elementos básicos da criação: Água, Terra, Fogo e Ar. Alguns deles desenvolvem feitiços complexos para conter os poderosos elementos da natureza; outros buscam a proteção em harmonia e comunhão.\n\nMagia elemental pode ser muito destrutiva, causando dano e infligindo condições negativas; é por isso que muitos desejam as habilidades de um Elementalista... para fins maléficos.",
+    "questions": [
+      "Quem treinou você no caminho dos Elementos?",
+      "Sua magia pode ser devastadora... Você teme a si mesmo?",
+      "A magia elemental é muito usada na guerra. Você serviu no exército?",
+      "Qual a aparência de sua magia?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5. Você pode fazer rituais cujos efeitos pertençam à disciplina de ritualismo.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Artilharia Mágica",
+        "max_level": 3,
+        "description": "Quando lança um feitiço ofensivo (**r**) com uma arma arcana equipada, você recebe um bônus igual a 【NP × 2】 no teste de **Magia**."
+      },
+      {
+        "name": "Cataclismo",
+        "max_level": 3,
+        "description": "Quando lança um feitiço de duração “instantânea” com uma arma arcana equipada, você pode aumentar o custo total de PM do feitiço em até 【NP × 10】 PM. Se fizer isso e o feitiço causar dano a uma criatura ou mais, para cada 10 PM com os quais o custo do feitiço foi aumentado, cada criatura sofre +5 pontos de dano."
+      },
+      {
+        "name": "Elementalismo Ritualista",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina elementalismo. Rituais de elementalismo usam 【AST + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Guerreiro Mágico",
+        "max_level": 4,
+        "description": "Quando lança um feitiço ofensivo (**r**) com custo total de PM igual ou inferior a 【NP × 10】, cujo alvo é uma única criatura, e você está usando uma arma das categorias adaga, arco, espada, lança, luta ou malho, pode usar a fórmula do teste de **Precisão** da arma equipada em vez do teste de **Magia**. Por exemplo, o teste de **Magia** para um feitiço de Elementalista lançado através de uma espada de bronze será 【DES + VIG】 + 1 em vez de 【AST + VON】."
+      },
+      {
+        "name": "Magia Elemental",
+        "max_level": 10,
+        "description": "Sempre que adquirir este poder, aprenda um feitiço de Elementalista. Feitiços ofensivos (**r**) de Elementalista usam 【AST + VON】 no teste de **Magia**."
+      }
+    ]
+  },
+  {
+    "id": "entropista",
+    "name": "Entropista",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 190,
+    "quote": "O frio entre as estrelas... ele não me assusta.",
+    "description": "Muito acima das estrelas, onde sua luz não brilha, existe um vazio sem fundo onde a vida e as almas murcham e se transformam em algo irreconhecível. Esse reino é uma não realidade, um caos vasto e infinito imune às leis do tempo, do espaço e da probabilidade.\n\nEntropistas o chamam de Cosmos, Céu ou apenas Sorte, e estão entre os poucos com a dádiva de canalizar suas energias que distorcem a realidade.",
+    "questions": [
+      "Quem ensinou você a canalizar os poderes do Cosmos e distorcer a realidade?",
+      "O que você sabe sobre o Cosmos? É o fim de uma realidade ou o novo começo?",
+      "Qual a aparência de sua magia?",
+      "Há muitos praticando a sua magia ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5. Você pode fazer rituais da disciplina ritualismo.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Absorver PM",
+        "max_level": 5,
+        "description": "Depois de sofrer dano, você pode imediatamente recuperar 【NP × 2】 PM."
+      },
+      {
+        "name": "Entropismo Ritualista",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina entropismo. Rituais de entropismo usam 【AST + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Magia Entrópica",
+        "max_level": 10,
+        "description": "Sempre que adquirir este poder, aprenda um feitiço de Entropista. Feitiços ofensivos (**r**) de Entropista usam 【AST + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Sete da Sorte",
+        "max_level": 1,
+        "description": "Você tem um número da sorte; no início de cada sessão, esse número é 7. Uma vez por cena, após fazer um teste, você pode substituir o valor de um dado que rolou pelo seu número da sorte (mesmo que isso lhe dê um resultado impossível, como um 7 em um d6). Se fizer isso, o valor substituído torna-se o seu novo número da sorte."
+      },
+      {
+        "name": "Tempo Roubado",
+        "max_level": 4,
+        "description": "Durante um conflito, você pode gastar uma ação e até 【NP × 5】 PM para interferir no fluxo temporal. Para cada 5 PM gastos dessa forma, escolha uma opção: uma criatura que você possa ver fica **lenta**; ou deixa de ficar **lenta**; ou faz a ação **Equipamento** imediatamente e sem custo; ou escolha um aliado que você possa ver e ainda não tenha agido nesta rodada: esse aliado faz o turno dele imediatamente depois do seu durante essa rodada. Cada opção só pode ser escolhida uma vez por uso deste poder e você precisa ver as criaturas para poder afetá-las com ele."
+      }
+    ]
+  },
+  {
+    "id": "erudito",
+    "name": "Erudito",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 194,
+    "quote": "Ah, eu sabia que isto aconteceria.",
+    "description": "Eruditos são famosos pela sua fome insaciável por descobertas. Eles acreditam com louvor que conhecimento é poder e dariam todo o ouro do mundo para ter a chance de solucionar um bom mistério.\n\nInfelizmente, muitos Eruditos são desligados e se distraem com facilidade, pouco se preocupando com assuntos \"pragmáticos\"... ao ponto de não notarem as consequências sombrias de suas descobertas.",
+    "questions": [
+      "Quem é ou era seu mentor? Como é ou era sua relação com essa pessoa?",
+      "Você frequentava uma academia ou escola? Que tipo de pessoas conhecia lá?",
+      "Há um mistério milenar pelo qual você tem obsessão. O que é?",
+      "É verdade que algumas coisas são melhores se esquecidas pelo tempo?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Análise Rápida",
+        "max_level": 6,
+        "description": "No início de um conflito, você pode gastar até 【NP × 5】 PM. Para cada 5 PM gastos dessa forma, escolha uma opção: escolha uma criatura que você possa ver e o mestre revela um dos Traços dela; ou escolha um tipo de dano e uma criatura que você possa ver e o mestre revela a Afinidade dela ao tipo escolhido."
+      },
+      {
+        "name": "Concentrado",
+        "max_level": 5,
+        "description": "Aumente permanentemente seus PM máximos em 【NP × 3】. Ao fazer um **teste aberto** usando 【AST + AST】, você ganha um bônus igual a 【NP】 naquele teste (funciona apenas em testes abertos)."
+      },
+      {
+        "name": "Conhecimento é Poder",
+        "max_level": 1,
+        "description": "Quando faz um teste de **Precisão**, você pode substituir um de seus dados de Atributo por Astúcia (como 【AST + AST】 para uma pistola ou 【AST + VIG】 para um machado de guerra)."
+      },
+      {
+        "name": "Lampejo de Saber",
+        "max_level": 3,
+        "description": "Quando tira 13 ou mais em um teste para investigar uma criatura, item ou local — inclusive na ação **Estudo** —, você pode fazer até 【NP】 perguntas ao mestre sobre o tópico de sua investigação. Estas perguntas podem ser feitas imediatamente ou em um momento oportuno no futuro. O mestre deve responder com informações verdadeiras, mas você deve descrever o processo dedutivo de seu personagem. Este poder só pode ser usado uma vez na mesma criatura, item ou local."
+      },
+      {
+        "name": "Memória Treinada",
+        "max_level": 1,
+        "description": "Você pode lembrar com perfeição dos detalhes de qualquer cena em que tenha estado na última semana. Você pode “voltar no tempo” dentro de sua mente para examinar ou investigar essas cenas de novo — seu poder **Lampejo de Saber** também pode ser usado nestas memórias."
+      }
+    ]
+  },
+  {
+    "id": "espiritualista",
+    "name": "Espiritualista",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 196,
+    "quote": "Mostre-me a verdade do seu coração.",
+    "description": "Os Espiritualistas cultivam uma poderosa conexão com os aspectos brutos da alma: emoção, energia, vida e morte. Eles usam poderes tão milagrosos quanto assustadores e costumam ser afiliados a cultos ou religiões.\n\nVários mundos veem os poderes do espiritualismo como dádivas divinas ou como prova da pureza de coração de alguém; entretanto, não há prova definitiva de que essas habilidades vêm de algo além de disciplina, empatia e foco.",
+    "questions": [
+      "De onde vem a sua magia? Quais são as suas crenças sobre vida e morte?",
+      "Como se sente sobre manipular as emoções e a energia vital das pessoas?",
+      "O que acha sobre religião? Você é parte de um culto ou igreja em específico?",
+      "Qual a aparência de sua magia?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5. Você pode fazer rituais da disciplina ritualismo.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Espiritualismo Ritualista",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina espiritualismo. Rituais de espiritualismo usam 【AST + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Magia de Suporte",
+        "max_level": 1,
+        "description": "Quando lança um feitiço que tenha como alvo um ou mais aliados, se estiver com uma arma arcana equipada, escolha um destes aliados com quem você tenha um Laço. O aliado ganha um bônus igual à força do seu Laço com ele no próximo teste que fizer até o fim da cena."
+      },
+      {
+        "name": "Magia Espiritual",
+        "max_level": 10,
+        "description": "Sempre que adquirir este poder, aprenda um feitiço de Espiritualista. Feitiços ofensivos (**r**) de Espiritualista usam 【AST + VON】 no teste de **Magia**."
+      },
+      {
+        "name": "Poder Curativo",
+        "max_level": 2,
+        "description": "Quando lança um feitiço que tenha como alvo um ou mais aliados, se estiver com uma arma arcana equipada, cada aliado alvo recupera uma quantidade de PV igual a 【NP multiplicado pelo número de Laços que você tem】. Esta cura é separada de qualquer cura causada pelos efeitos do feitiço."
+      },
+      {
+        "name": "Vismagus",
+        "max_level": 1,
+        "description": "Quando lança um feitiço, caso não tenha PM para pagar seu custo total, em vez disso, você pode gastar duas vezes essa quantidade em PV. Não é possível usar este poder se ele o deixaria com 0 PV. Se um feitiço conjurado dessa forma faria você recuperar PV, você não o faz (outros alvos são afetados normalmente)."
+      }
+    ]
+  },
+  {
+    "id": "furioso",
+    "name": "Furioso",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 200,
+    "quote": "Eu só preciso ficar mais forte que você!",
+    "description": "Furiosos não sabem parar — na guerra e na vida, são enérgicos, determinados e implacáveis. Seja quais forem os seus ideais ou desejos, eles não param por nada e arriscam tudo para conquistá-los.\n\nAlguns Furiosos passam por treinamentos rígidos para controlar suas emoções; outros apenas veem o poder como a solução de todos os problemas e estão sempre prestes a deixar sua ira dominá-los.",
+    "questions": [
+      "Você conta com sua paixão ardente ou tenta mantê-la sob controle?",
+      "Tem sempre uma coisa específica que faz você perder a cabeça. O que é?",
+      "No passado, seu descontrole teve consequências trágicas. O que você perdeu?",
+      "Qual a aparência de suas armas e como é seu estilo de luta?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armas corpo a corpo e armaduras marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Adrenalina",
+        "max_level": 5,
+        "description": "Enquanto estiver em **Crise**, você causa 【NP × 2】 de dano adicional (seja através de ataques, feitiços, Arcanos, itens ou qualquer outro meio)."
+      },
+      {
+        "name": "Espírito Indomável",
+        "max_level": 4,
+        "description": "Quando gasta um ou mais **Pontos de Fabula**, você recebe um benefício adicional escolha um: você recupera 【NP × 5】 PV; ou você recupera 【NP × 5】 PM; ou você se recupera de uma única condição à sua escolha."
+      },
+      {
+        "name": "Frenesi",
+        "max_level": 1,
+        "description": "Seus testes de **Precisão** com adaga, luta, malho e armas de arremesso contam como um **sucesso crítico** se ambos os dados mostrarem um mesmo número, qualquer que seja (contanto que o teste não seja uma **falha crítica**)."
+      },
+      {
+        "name": "Provocar",
+        "max_level": 5,
+        "description": "Você pode gastar uma ação e 5 PM para fazer um teste oposto de 【VIG + VON】 contra uma criatura que possa ver descreva de que maneira a provoca! Se passar, o alvo fica **enfurecido** e é compelido a se concentrar em você (ele deve fazer o possível para ter você como alvo de ataques e feitiços). A compulsão termina se você ficar inconsciente ou deixar a cena, ou se a criatura deixar de ficar **enfurecida** ou for provocada por outra pessoa. Você ganha um bônus igual a 【NP】 em testes de 【VIG + VON】 para este poder."
+      },
+      {
+        "name": "Resistir",
+        "max_level": 5,
+        "description": "Quando faz a ação **Guarda**, se você escolher não dar cobertura a outra criatura, recupere uma quantidade de PV igual a 【NP multiplicado pela maior força de Laço que tiver】 e escolha Vigor ou Vontade. Até o fim do seu próximo turno, o dado atual do Atributo escolhido é considerado um passo maior (máximo de d12)."
+      }
+    ]
+  },
+  {
+    "id": "guardiao",
+    "name": "Guardião",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 202,
+    "quote": "Deixe-me ser seu escudo.",
+    "description": "Orgulhosos e altruístas, Guardiões sabem o valor da vida e estão dispostos a se sacrificar por uma pessoa, nação ou ideal que juraram proteger. Costumam ser indivíduos extraordinários e impressionantes, como soldados ou veteranos valentes marcados por centenas de batalhas.\n\nAlguns são barulhentos e tempestuosos, mas muitos apenas mascaram a memória atormentada das pessoas que falharam em proteger.",
+    "questions": [
+      "Por quem ou pelo que você daria sua vida de bom grado para proteger?",
+      "Você está ou já esteve a serviço de uma dama ou lorde? Como era essa pessoa?",
+      "O que você falhou em proteger? O que você perdeu?",
+      "O que você usa de armadura e/ou escudo?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armaduras e escudos marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Duplo Escudeiro",
+        "max_level": 1,
+        "description": "Você se torna capaz de equipar um escudo em seu espaço de mão dominante. Enquanto tiver dois escudos equipados, você ganha os benefícios de ambos os itens e pode tratá-los como a seguinte arma de luta de duas mãos: **Escudos Gêmeos** (precisão 【VIG + VIG】, dano 【RA + 5】 físico). Causa dano adicional igual ao seu 【NP】 em **Maestria Defensiva**."
+      },
+      {
+        "name": "Fortaleza",
+        "max_level": 5,
+        "description": "Aumente permanentemente seus PV máximos em 【NP × 3】."
+      },
+      {
+        "name": "Guarda-costas",
+        "max_level": 1,
+        "description": "Se você fizer a ação **Guarda** e escolher dar cobertura a outra criatura, essa criatura ganha **Resistência** a todos os tipos de dano até o início de seu próximo turno."
+      },
+      {
+        "name": "Maestria Defensiva",
+        "max_level": 5,
+        "description": "Enquanto tiver um escudo ou armadura marcial equipada, todo o dano que você sofrer é reduzido em 【NP】 (aplicado antes de Afinidades a dano)."
+      },
+      {
+        "name": "Proteger",
+        "max_level": 5,
+        "description": "Quando outra criatura é ameaçada por um ataque, feitiço ou outro perigo, você pode tomar o lugar dela. Quaisquer testes que forem parte do perigo serão realizados contra você; além disso, você pode declarar o uso deste poder antes ou depois da realização dos testes. Se o perigo já afetou você, ele o afetará duas vezes (resolva ambas as instâncias separadamente); além disso, você não pode proteger várias criaturas do mesmo perigo. Se usar este poder durante um conflito, você não poderá reutilizá-lo até o início de seu próximo turno."
+      }
+    ]
+  },
+  {
+    "id": "guerreiro-sombrio",
+    "name": "Guerreiro Sombrio",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 204,
+    "quote": "Hoje você conhecerá a extensão do meu sofrimento.",
+    "description": "Guerreiros Sombrios são combatentes lúgubres e poderosos que escondem passados tristes. Devido a suas experiências trágicas no campo de batalha ou na vida pessoal, sua alma desenvolveu uma afinidade à dor e a energias sombrias.\n\nHeróis no mínimo improváveis, Guerreiros Sombrios sacrificam a própria força vital para desferir golpes poderosos e extrair coragem, poder e até sabedoria do seu sofrimento.",
+    "questions": [
+      "Que experiência trágica despertou suas habilidades?",
+      "Muitos acreditam que seus poderes são malignos. Como se sente sobre eles?",
+      "Qual a aparência de suas armas e como é seu estilo de luta?",
+      "Há muitos praticando a sua magia ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armas corpo a corpo e armaduras marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Agonia",
+        "max_level": 5,
+        "description": "Quando causa dano a uma ou mais criaturas, se tiver um Laço com pelo menos uma delas, você recupera 【NP × 2】 PV e 【NP × 2】 PM."
+      },
+      {
+        "name": "Coração da Escuridão",
+        "max_level": 1,
+        "description": "Uma vez por cena, quando entra em **Crise**, escolha uma criatura específica que você possa ver e com a qual não tenha um Laço; você cria um Laço de ódio para com a criatura escolhida."
+      },
+      {
+        "name": "Golpe das Sombras",
+        "max_level": 5,
+        "description": "Você aprendeu a canalizar sua força vital em seus ataques, usando uma ação para fazer um Golpe das Sombras: você rola seu dado atual de Vigor e perde uma quantidade de PV igual ao resultado. Se isto não reduzir seus PV a 0, você pode fazer um ataque livre com uma arma equipada; se atingir um ou mais alvos, você causa dano adicional igual a 【NP + número rolado no dado de Vigor】. Esse ataque causa dano de trevas e seu tipo não pode ser alterado."
+      },
+      {
+        "name": "Lição Dolorosa",
+        "max_level": 3,
+        "description": "Quando outra criatura faz você perder PV (com um ataque, feitiço ou qualquer outro método), você pode fazer a ação **Estudo** imediatamente, tendo-a como alvo. Se fizer isso, faz o teste com um bônus igual a 【NP】."
+      },
+      {
+        "name": "Sangue das Trevas",
+        "max_level": 1,
+        "description": "Enquanto estiver em **Crise**, você tem **Resistência** a dano de trevas e de veneno."
+      }
+    ]
+  },
+  {
+    "id": "inventor",
+    "name": "Inventor",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 206,
+    "quote": "Gosto de imaginar que aquilo que temos hoje não foi um presente dos deuses.",
+    "description": "Inventores têm uma engenhosidade sem igual, conhecidos por suas invenções excêntricas e maravilhosas. Viajam ao redor do mundo em uma busca infindável por teorias perdidas e maquinário antigo; seus olhos brilham quando eles testemunham maravilhas da arquitetura e da engenharia.\n\nDe certo modo, os Inventores são os maiores sonhadores e rebeldes, desafiando as regras da natureza e da sociedade em prol de um futuro melhor.",
+    "questions": [
+      "Você aprendeu sua arte com alguém? Qual era sua relação com essa pessoa?",
+      "O que você perdeu indo atrás de progresso e inovação?",
+      "Sua arte é revolucionária? Ou pertence a uma área bem estabelecida?",
+      "Quando um item ou efeito é criado por você, como ele se parece?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2. Você pode iniciar Projetos.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Chuva de Poções",
+        "max_level": 2,
+        "description": "Quando cria uma poção que restaura PV e/ou PM de uma única criatura, você pode fazer com que ela afete até 【NP】 criaturas adicionais. Se fizer isso, a poção restaura apenas metade da quantidade normal de PV e PM para cada criatura."
+      },
+      {
+        "name": "Engenhocas",
+        "max_level": 5,
+        "description": "Quando adquire este poder pela primeira vez, escolha um tipo de engenhoca: **alquimia**, **infusões** ou **tecnomagia**. Você ganha os benefícios básicos desse tipo de engenhoca. Sempre que adquirir este poder novamente, escolha uma opção: você ganha os benefícios básicos de um novo tipo de engenhoca ou ganha os benefícios avançados de uma engenhoca cujos benefícios básicos já possua; ou ganha os benefícios superiores de uma engenhoca cujos benefícios avançados já possua."
+      },
+      {
+        "name": "Fórmula Secreta",
+        "max_level": 5,
+        "description": "Quando cria uma poção ou magisfera cujos efeitos restauram PV e/ou PM, cada recurso restaurado aumenta em 【NP × 5】. Quando cria um fragmento elemental, uma magisfera ou uma poção que cause dano, esse item causa 【NP】 de dano adicional."
+      },
+      {
+        "name": "Item Emergencial",
+        "max_level": 1,
+        "description": "Uma vez por cena de conflito, quando estiver em **Crise**, você pode fazer mais uma ação no seu turno, mas deve ser a ação **Inventário**."
+      },
+      {
+        "name": "Visionário",
+        "max_level": 5,
+        "description": "Quando trabalha em um **Projeto**, até 【NP × 100】 zênites do seu custo de material são pagos automaticamente. Além disso, você gera mais 【NP】 de progresso todos os dias. Se vários personagens com este poder trabalharem no mesmo projeto, os efeitos são cumulativos."
+      }
+    ]
+  },
+  {
+    "id": "ladino",
+    "name": "Ladino",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 212,
+    "quote": "Eu encontrarei minha própria justiça.",
+    "description": "Sejam criminosos, rebeldes ou espiões, os Ladinos estão mais que dispostos a jogar sujo para conseguirem o que querem. No geral, são rápidos, perspicazes e evasivos — embora a infâmia de alguns por se preocuparem apenas com o próprio dinheiro e lucro seja reconhecida, muitos se consideram inimigos de injustiças, tiranias ou exclusão social.\n\nÉ comum que Ladinos tenham o trágico destino de serem vistos como ameaça pelas mesmas pessoas a quem defendem.",
+    "questions": [
+      "O que motiva você? Desejo? Vingança? Ou uma ânsia ardente por liberdade?",
+      "Você é parte de uma organização criminosa? Ou trabalha por conta própria?",
+      "Há algo ou alguém que é seu apoio? Ou, no final, todos morrem sozinhos?",
+      "Qual é a regra mais importante do seu código pessoal?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Alta Velocidade",
+        "max_level": 3,
+        "description": "No início de um conflito, gaste 10 PM e escolha uma opção: faça um ataque livre com uma arma equipada; ou faça a ação **Impedimento** ou **Objetivo**. Isso acontece antes da primeira rodada. Você também ganha um bônus igual a 【NP】 em testes feitos como parte da opção escolhida."
+      },
+      {
+        "name": "Esquiva",
+        "max_level": 3,
+        "description": "Enquanto não tiver escudos ou armaduras marciais equipadas, sua Defesa aumenta em 【NP】."
+      },
+      {
+        "name": "Golpe Baixo",
+        "max_level": 5,
+        "description": "Quando atinge uma criatura com um ataque, apenas se essa criatura for o alvo e ela estiver sofrendo uma ou mais condições, você causa dano adicional igual a 【NP + o número de condições afetando a criatura】."
+      },
+      {
+        "name": "Roubo de Alma",
+        "max_level": 5,
+        "description": "Você pode gastar uma ação para fazer um teste de 【DES + VON】 contra a Def.M de uma criatura que possa ver. Se o alvo for um soldado e você tiver sucesso, recupere 【NP】 PI; se ele for um elite ou um campeão, em vez disso você recebe tesouro da alma do alvo: um item com valor em zênites igual ou inferior ao (nível do alvo multiplicado por 30 ou, se for um vilão, multiplicado por 50). Esse tesouro da alma aparecerá na sua mochila. Uma criatura pode ser furtada por este poder apenas uma vez. Você ganha um bônus igual a 【NP】 nos testes de 【DES + VON】 para este poder."
+      },
+      {
+        "name": "Vejo Você Mais Tarde",
+        "max_level": 1,
+        "description": "Você pode gastar uma ação e 1 **Ponto de Fabula** para sumir da cena atual, reaparecendo quando quiser durante uma cena diferente em que outro PJ esteja. Descreva como você escapou e milagrosamente apareceu no novo local!"
+      }
+    ]
+  },
+  {
+    "id": "mestre-de-armas",
+    "name": "Mestre de Armas",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 214,
+    "quote": "As lâminas mais afiadas nunca são desembainhadas.",
+    "description": "Os Mestres de Armas devotam anos e anos ao aperfeiçoamento das suas artes de combate a curto alcance. A maioria tem uma habilidade notável com diversas armas; outros treinaram para se tornarem um com um armamento específico.\n\nAlguns Mestres de Armas seguem e protegem alguém por amor ou por lealdade, mas há também aqueles que atravessam o mundo buscando oponentes dignos, armas mágicas lendárias ou professores capacitados.",
+    "questions": [
+      "Qual é sua relação com as armas? São meros objetos ou algo maior?",
+      "Você procura batalhas ou tenta evitá-las?",
+      "Você está ou já esteve a serviço de uma dama ou lorde? Como era essa pessoa?",
+      "Qual a aparência de suas armas e como é seu estilo de luta?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armas corpo a corpo e escudos marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Chuva de Lâminas",
+        "max_level": 1,
+        "description": "Quando faz um ataque corpo a corpo, você pode gastar 10 PM para escolher uma opção: o ataque ganha **multi (2)**; ou você aumenta em um a propriedade **multi** do ataque, até o máximo de **multi (3)**."
+      },
+      {
+        "name": "Contra-ataque",
+        "max_level": 1,
+        "description": "Quando um inimigo atinge ou erra um ataque corpo a corpo contra você, se o resultado do teste de **Precisão** for um número par, você pode fazer um ataque livre contra esse inimigo (depois que o ataque dele for resolvido). Esse ataque deve ser corpo a corpo e deve ter esse inimigo como único alvo; sua RA é considerada como 0 para calcular o dano causado por este ataque."
+      },
+      {
+        "name": "Esmagador de Ossos",
+        "max_level": 4,
+        "description": "Quando atinge um ou mais alvos com um ataque corpo a corpo que fosse causar dano, você pode escolher não causar dano. Se fizer isso, escolha uma opção: deixar cada alvo atingido pelo ataque **atordoado**; ou deixar cada alvo atingido **fraco**; ou cada alvo atingido perde 【NP × 10】 PM. Descreva sua manobra!"
+      },
+      {
+        "name": "Maestria com Armas Corpo a Corpo",
+        "max_level": 4,
+        "description": "Você ganha um bônus igual a 【NP】 em testes de **Precisão** corpo a corpo."
+      },
+      {
+        "name": "Trespassar",
+        "max_level": 3,
+        "description": "Você pode gastar uma ação e 5 PM para fazer um ataque livre com uma arma corpo a corpo equipada. Este ataque deve ter somente uma criatura como alvo. Se acertar, você não causa dano e escolhe uma opção: destrua um escudo equipado pelo alvo; ou destrua a armadura equipada pelo alvo; ou toda vez que o alvo sofrer dano antes do início do seu próximo turno, ele sofre 【NP × 2】 de dano adicional."
+      }
+    ]
+  },
+  {
+    "id": "orador",
+    "name": "Orador",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 216,
+    "quote": "Palavras só servem de algo se as ações subsequentes também servirem.",
+    "description": "Alguns Oradores são graciosos e de sorriso cheio, outros são sutis e perspicazes, mas todos são igualmente habilidosos em ler emoções e reunir aliados em prol de suas causas — às vezes sem querer.\n\nAs palavras de um Orador podem reacender a coragem ou causar desespero aos oponentes: ao longo dos séculos, os talentos de alguns Oradores levaram nações inteiras à ruína... da mesma maneira que muitos causaram a ascensão de reinos outrora destruídos.",
+    "questions": [
+      "Você acha que qualquer um pode ser persuadido? Todos têm um preço?",
+      "Você foi traído por alguém que parecia estar do seu lado. Quem era?",
+      "Como você se sente sobre manipular pessoas, ainda que por uma boa causa?",
+      "No passado, suas palavras colocaram você em apuros. O que aconteceu?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Aliado Inesperado",
+        "max_level": 1,
+        "description": "Você pode gastar uma ação e 1 **Ponto de Fabula** para escolher uma criatura que não seja hostil e capaz de ouvir e entender você. Se fizer isso, ela se torna solícita, desde que tratada com respeito e gentileza e você faça pedidos razoáveis."
+      },
+      {
+        "name": "Condenar",
+        "max_level": 4,
+        "description": "Você pode gastar uma ação e 5 PM para fazer um teste oposto de 【AST + VON】 contra uma criatura capaz de ouvir e entender suas acusações. Em um sucesso, o alvo perde 【NP × 10】 PM e fica **abalado** ou **atordoado** (à sua escolha). Você ganha um bônus igual a 【NP】 em testes de 【AST + VON】 para este poder."
+      },
+      {
+        "name": "Confio em Você",
+        "max_level": 2,
+        "description": "Quando outro PJ capaz de ouvir e ver você fizer um teste, você pode gastar 1 **Ponto de Fabula** para convocar um dos Traços ou Laços dele, permitindo que ele role dados novamente ou melhore o resultado do teste (seguindo as regras normais). Em seguida, se você tem um Laço com o personagem alvo, ele recupera 【NP × 10】 PM."
+      },
+      {
+        "name": "Encorajar",
+        "max_level": 6,
+        "description": "Durante um conflito, você pode gastar uma ação e 5 PM para escolher outra criatura que possa ver e entender você. Essa criatura recupera 【NP × 5】 PV e escolhe Destreza, Vigor, Astúcia ou Vontade. Até o início do seu próximo turno, o dado atual do Atributo escolhido é considerado um passo maior (máximo de d12)."
+      },
+      {
+        "name": "Persuasivo",
+        "max_level": 2,
+        "description": "Quando passar em um teste para preencher ou apagar as seções de um relógio, se a sua abordagem envolveu charme, diplomacia, enganação ou intimidação, você pode gastar até 【NP × 20】 PM. Se fizer isso, preencha ou apague uma seção adicional desse relógio para cada 20 PM gastos dessa maneira."
+      }
+    ]
+  },
+  {
+    "id": "quimerista",
+    "name": "Quimerista",
+    "type": "class",
+    "source": "Livro Básico",
+    "page_reference": 218,
+    "quote": "Poder sem harmonia só leva ao sofrimento.",
+    "description": "Os Quimeristas obtêm seu poder das almas dos monstros e feras que encontram.\n\nAo manipular sua selvagem energia interior, esses magos podem imitar as habilidades mágicas dos monstros e alcançar compreensão sobrenatural sobre criaturas ferais.\n\nOs Quimeristas se apoiam em sua resistência e força física unidas à magia. Geralmente são vistos viajando pelo mundo na incessante busca de criaturas raras e encantadas.",
+    "questions": [
+      "Quem lhe ensinou a arte do quimerismo? Seu mentor é humano ou monstruoso?",
+      "Pessoas e monstros podem viver em harmonia ou seu destino é a ameaça mútua?",
+      "Qual a aparência de sua magia?",
+      "Há muitos praticando a sua arte ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5. Você pode fazer rituais da disciplina ritualismo.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Consumir",
+        "max_level": 5,
+        "description": "Quando causa dano a uma ou mais criaturas usando um feitiço, caso tenha uma adaga, arma arcana ou malho equipado, você recupera 【NP × 2】 PM."
+      },
+      {
+        "name": "Imitação Mágica",
+        "max_level": 10,
+        "description": "Quando vê um feitiço sendo lançado por uma criatura das espécies fera, monstro e planta, você pode aprendê-lo imediatamente como um de seus feitiços de Quimerista: se fizer isso, anote a espécie da criatura com a qual aprendeu. Na primeira vez que receber este poder, escolha 【AST + VON】 ou 【VIG + VON】. A partir de agora, seus feitiços ofensivos (**r**) de Quimerista usam os Atributos escolhidos no teste de **Magia**, independentemente dos Atributos usados pela criatura com a qual você aprendeu o feitiço. Você pode memorizar até 【NP + 2】 feitiços de Quimerista diferentes desta maneira. Se quiser memorizar um novo feitiço de Quimerista, mas já tiver atingido o limite, você deve esquecer um dos antigos e substituí-lo pelo novo."
+      },
+      {
+        "name": "Língua das Feras",
+        "max_level": 1,
+        "description": "Você pode se comunicar com criaturas das espécies fera, monstro e planta."
+      },
+      {
+        "name": "Patogênese",
+        "max_level": 1,
+        "description": "Quando causa dano a uma ou mais criaturas com um de seus feitiços de Quimerista, alvos que sejam da mesma espécie da criatura com a qual você aprendeu o feitiço ficam **envenenados**."
+      },
+      {
+        "name": "Quimerismo Ritualista",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina quimerismo. Ao obter este poder, escolha 【AST + VON】 ou 【VIG + VON】. A partir de agora, seus rituais de quimerismo utilizam os Atributos escolhidos no teste de **Magia**."
+      }
+    ]
+  },
+  {
+    "id": "floralista",
+    "name": "Floralista",
+    "type": "class",
+    "source": "Atlas: Natural Fantasy",
+    "page_reference": 138,
+    "quote": "Não há rosas sem espinhos.",
+    "description": "A energia espiritual é bem intensa nas plantas, graças à sua conexão direta com a terra. Disso, brotam as magissementes, portadoras da habilidade única de se nutrir com energia espiritual e florescer num majestoso e efêmero triunfo mágico.\n\nFloralistas são capazes de identificar e cultivar tais sementes, fornecendo imensa variedade de benefícios que podem ser combinadas com todos os tipos de disciplinas mágicas ou marciais.",
+    "questions": [
+      "Quando e onde você descobriu sua primeira magissemente?",
+      "Quem te ensinou a cuidar de plantas e flores?",
+      "Como você implementou as magissementes em seu estilo de combate?",
+      "Há muitos praticando a sua arte ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV ou PM máximos em 5 (à sua escolha).",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Árvore da Vida",
+        "max_level": 5,
+        "description": "Ao remover uma magissemente de seu jardim, você pode escolher uma criatura que você possa ver: se o alvo estiver em **Crise**, ele recupera 【5 + (NP × 5)】 PV."
+      },
+      {
+        "name": "Cloromancia",
+        "max_level": 10,
+        "description": "Sempre que adquirir este poder, você conhece um tipo diferente de magissemente. Durante um conflito, se não houver magissementes em seu jardim, você pode usar uma ação e gastar 20 PM para plantar uma magissemente de um tipo que conheça."
+      },
+      {
+        "name": "Enxerto",
+        "max_level": 1,
+        "description": "Enquanto houver uma magissemente em seu jardim e 1 ou mais seções de seu relógio de germinação estiverem preenchidas, você pode usar uma ação para remover essa magissemente de seu jardim: se fizer isso, plante uma magissemente diferente, desde que seja uma das que você conhece (isso não altera as sessões preenchidas de seu relógio de germinação)."
+      },
+      {
+        "name": "Influência Verdejante",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina ritualismo. Além disso, pode usar ritualismo para criar, animar e/ou controlar vegetação, pólen, esporos e toxinas (mas não pode criar nem controlar NPCs da espécie planta dessa forma)."
+      },
+      {
+        "name": "Jardinagem Marcial",
+        "max_level": 3,
+        "description": "Após plantar uma magissemente usando **Cloromancia** (mas não **Enxerto**), você pode escolher um: fazer um ataque livre com uma arma equipada; ou fazer a ação **Feitiço** sem usar uma ação, lançando um feitiço com custo total de PM igual ou inferior a 【5 + (NP × 5)】 (você ainda precisa pagar seu custo em PM). Sua RA no teste de **Precisão** ou de **Magia** é considerada como 0 para calcular o dano causado por este ataque ou magia."
+      }
+    ]
+  },
+  {
+    "id": "gourmet",
+    "name": "Gourmet",
+    "type": "class",
+    "source": "Atlas: Natural Fantasy",
+    "page_reference": 148,
+    "quote": "Chefs de verdade respeitam a natureza do que transformam.",
+    "description": "Cozinhar pode ser uma habilidade comum, mas os gourmets refinam o seu conhecimento sobre alimentos a um nível que quase tona-se sobrenatural: aperfeiçoando a arte de extrair a energia espiritual dos ingredientes e infusionando suas refeições com efeitos poderosos.\n\nEmbora alguns gourmets fiquem satisfeitos em apenas se estabelecer em uma vila ou aldeia, vivendo das suas habilidades, alguns viajam o mundo buscando por novos ingredientes.",
+    "questions": [
+      "Quem te ensinou a cozinhar? Qual sua relação com seu mentor?",
+      "Sua arte é revolucionária ou você já é estabelecido no meio?",
+      "Qual a aparência dos seus pratos? Que ferramentas você usa?",
+      "Por qual receita ou ingrediente lendário você está procurando?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2. Você pode iniciar projetos para criar comidas e bebidas únicas.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Cozinheiro Viajante",
+        "max_level": 3,
+        "description": "Após cada rolagem de viagem, se tiver o poder **Culinária**, você recebe 【NP × 2】 ingredientes."
+      },
+      {
+        "name": "Culinária",
+        "max_level": 5,
+        "description": "Ao descansar em um assentamento, você recebe 【NP】 ingredientes. Você pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria e escolher um: aplicar os efeitos em você e num aliado que você possa ver; ou fazer um ataque livre com uma arma equipada. Esse ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque. Você pode carregar consigo até 【10 + (NP × 5)】 ingredientes."
+      },
+      {
+        "name": "Feito com Amor",
+        "max_level": 3,
+        "description": "Quando usa **Culinária** e aplica os efeitos da iguaria em você ou num aliado que você possa ver, você pode gastar até 【NP × 10】 PM. Para cada 10 PM gastos dessa forma, aplique os efeitos da iguaria num aliado adicional que você possa ver."
+      },
+      {
+        "name": "Garfo e Faca",
+        "max_level": 1,
+        "description": "Quando usa **Culinária** para fazer um ataque livre, se você combinou apenas 2 ingredientes, você também pode fazer o ataque causar dano normalmente. Se fizer isso, sua RA é considerada como 0 ao calcular o dano causado por este ataque."
+      },
+      {
+        "name": "Sal e Pimenta",
+        "max_level": 1,
+        "description": "Ao preparar uma iguaria, você pode gastar 2 Pontos de Inventário. Se o fizer, mude o sabor de um ingrediente para outro sabor à sua escolha."
+      }
+    ]
+  },
+  {
+    "id": "invocador",
+    "name": "Invocador",
+    "type": "class",
+    "source": "Atlas: Natural Fantasy",
+    "page_reference": 154,
+    "quote": "Anseie pela compreensão, não pelo controle.",
+    "description": "Invocadores estudam a energia inata das almas e a forma como ela flui e se manifesta espontaneamente em seus arredores. Mesmo que sua arte dependa de canalizar o poder elemental, ela se adapta às fontes já existentes em vez de forçar um resultado que não é natural e afetar o fluxo espiritual.\n\nIsso posto, invocadores ainda são aventureiros formidáveis. Detentores de grande flexibilidade e com uma afinidade única para com as criaturas elementais.",
+    "questions": [
+      "Como você desenvolveu a arte da invocação?",
+      "Há um espírito ou criatura elemental com quem você tem um vínculo único?",
+      "Como suas invocações se manifestam?",
+      "Suas habilidades são comuns ou você é uma exceção?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV ou PM máximos em 5 (à sua escolha).",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Cascata",
+        "max_level": 5,
+        "description": "Após um inimigo que você possa ver perder PV graças ao dano causado por um de seus aliados, se o aliado causou dano adicional graças a uma de suas invocações do tipo \"Praga\", você pode fazer um ataque livre com uma arma equipada. Esse ataque pode ter apenas o mesmo inimigo como alvo e você recebe um bônus no teste de **Precisão** igual a 【NP】. Se o atingir, todo dano causado pelo seu ataque é do mesmo tipo causado pelo aliado, e todas as invocações do tipo \"Praga\" que estão no alvo se dissipam após o ataque ser resolvido."
+      },
+      {
+        "name": "Expandir Manancial",
+        "max_level": 5,
+        "description": "Enquanto você estiver equipado com um arco, arma arcana, arma arremessável, arma de luta, espada ou mangual, suas invocações de tipo \"explosão\" causam 【NP】 pontos de dano adicional e o dano adicional concedido por suas invocações do tipo \"praga\" aumenta em 【NP】."
+      },
+      {
+        "name": "Harmonia Elemental",
+        "max_level": 2,
+        "description": "Você consegue se comunicar verbalmente com criaturas elementais. Ao restaurar os PV de uma criatura com uma invocação ou feitiço, se houver um elemental presente na cena, o efeito restaura 【NP × 5】 PV adicionais."
+      },
+      {
+        "name": "Invocação",
+        "max_level": 3,
+        "description": "Você pode usar uma ação e gastar 5 PM para fazer uma invocação acessando a energia de um dos mananciais presentes na cena. Seu NP determina a quais invocações você tem acesso."
+      },
+      {
+        "name": "Invocações Conectadas",
+        "max_level": 3,
+        "description": "Ao fazer uma invocação, você pode gastar até 【NP × 10】 PM adicionais. A cada 10 PM gastos desta forma, a invocação pode ter uma criatura adicional que você possa ver como alvo."
+      }
+    ]
+  },
+  {
+    "id": "mercador",
+    "name": "Mercador",
+    "type": "class",
+    "source": "Atlas: Natural Fantasy",
+    "page_reference": 158,
+    "quote": "Antes de mais nada, pense: como isso vai ajudar a quem precisa?",
+    "description": "Mesmo em mundos transbordando magia, o dinheiro ainda tem muita influência. Comércio é um aspecto essencial ao desenvolvimento de nações e reinos, mercadores estão muito cientes desse poder.\n\nPode ser estranho mercadores em pé de igualdade com heróis. Mas quem resiste à tentação da ganância como eles e conta com o comércio para incentivar as trocas de ideias e o diálogo entre pessoas de fato está lutando em sua própria revolução.",
+    "questions": [
+      "O que te apresentou a arte do comércio? São negócios de família?",
+      "O mundo seria melhor sem dinheiro? Se sim, por que você ainda é um mercador?",
+      "O que você mais ama no comércio? E o que você detesta nele?",
+      "Você tem algum rival de negócios? Qual é sua relação com seu rival?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Data de Validade",
+        "max_level": 3,
+        "description": "Quando uma poção ou iguaria que você criou não causar dano, mas fizer uma ou mais criaturas recuperarem PV, você pode fazê-la, em vez de recuperar PV, causar dano de veneno igual à 【(metade do seu nível) + (NP × 10)】 a cada uma dessas criaturas (esse tipo não pode mudar). Esse dano é dividido à metade se for causado a duas ou mais criaturas."
+      },
+      {
+        "name": "Estoque Pessoal",
+        "max_level": 3,
+        "description": "Quando você ou outro PJ for gastar 【NP + 2】 ou menos Pontos de Inventário, você pode gastar 1 Ponto de Comércio para o alvo ignorar esse custo."
+      },
+      {
+        "name": "Já Ouvi Falar",
+        "max_level": 3,
+        "description": "Quando você ou um aliado que puder ouvir e entender você fizer um teste para examinar uma criatura, item ou local, você pode gastar 1 Ponto de Comércio para conferir um bônus igual a 【NP + 2】 ao resultado do teste."
+      },
+      {
+        "name": "Ventos do Comércio",
+        "max_level": 3,
+        "description": "Após descansar numa área onde pode fazer comércio, você recebe 【NP + 1】 Pontos de Comércio (máximo 【NP + 3】). Numa cena sem conflito, você pode gastar 2 Pontos de Comércio para criar um item raro/material ou criar um NPC que mora por perto."
+      },
+      {
+        "name": "Verdadeiro Tesouro",
+        "max_level": 3,
+        "description": "Uma vez por sessão, quando você ajudar um NPC ou uma comunidade a superar ganância e corrupção, melhorar a qualidade de vida ou coexistir com outras criaturas, se tiver **Ventos do Comércio**, você recebe 【NP + 1】 Pontos de Comércio."
+      }
+    ]
+  },
+  {
+    "id": "comandante",
+    "name": "Comandante",
+    "type": "class",
+    "source": "Atlas: High Fantasy",
+    "page_reference": 136,
+    "quote": "Não há vitoriosos em uma guerra.",
+    "description": "Comandantes são líderes e figuras inspiradoras. Alguns deles têm sangue nobre, mas a maioria mereceu a lealdade dos companheiros no campo de batalha, onde sua vontade de ferro e talentos táticos foram postos à prova.\n\nAo pensar como um comandante deve ser, não se apegue à ideia de um cavaleiro com armadura reluzente: líderes bandidos, nobres em desgraça e estudiosos de estratégia também são bons exemplos dessa classe.",
+    "questions": [
+      "Você tem sangue nobre? Ou é um herói de origem humilde?",
+      "Você busca a batalha ou faz o possível para evitá-la?",
+      "Existe algum sacrifício que você jamais faria pela vitória?",
+      "Como suas habilidades se manifestam? Elas são visivelmente sobrenaturais?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV máximos em 5. Você pode equipar armas corpo a corpo e armas à distância marciais.",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 0,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Carga de Cavalaria",
+        "max_level": 5,
+        "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um aliado que possa ouvi-lo. O aliado pode fazer imediatamente um ataque livre com uma arma equipada (ou um ataque básico, se for um NPC). Ele recebe um bônus no teste de **Precisão** igual ao seu 【NP】, mas considera sua RA como 0 ao calcular o dano causado por este ataque."
+      },
+      {
+        "name": "Carruagem Devastadora",
+        "max_level": 1,
+        "description": "Após usar **Decreto do Bispo**, **Carga de Cavalaria** ou **Roque do Rei**, você pode escolher outro PJ que possa ouvi-lo e ainda não teve seu turno nesta rodada. O turno deste personagem acontece imediatamente após o seu nesta rodada."
+      },
+      {
+        "name": "Decreto do Bispo",
+        "max_level": 5,
+        "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um: todos os custos em PM são dobrados; ou todas as fontes de dano causam 【NP × 3】 de dano adicional."
+      },
+      {
+        "name": "Gambito da Dama",
+        "max_level": 6,
+        "description": "Em um conflito, você pode usar uma ação para fazer um ataque livre com uma arma equipada, considerando sua RA como 0 ao calcular o dano. Após o ataque ser resolvido, escolha um: você usa imediatamente um poder que possui entre **Decreto do Bispo**, **Carga de Cavalaria** ou **Roque do Rei** sem precisar usar uma ação (mas gasta a quantidade apropriada de PM); ou um aliado que possa ouvir você recupera 【5 + (NP × 5)】 PV."
+      },
+      {
+        "name": "Roque do Rei",
+        "max_level": 4,
+        "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um: nenhuma criatura pode recuperar PV ou PM; ou todos os efeitos que restauram PM restauram 【NP × 5】 PM adicionais. O efeito escolhido dura até o início de seu próximo turno."
+      }
+    ]
+  },
+  {
+    "id": "dancarino",
+    "name": "Dançarino",
+    "type": "class",
+    "source": "Atlas: High Fantasy",
+    "page_reference": 138,
+    "quote": "Minha história? Dance comigo para descobrir.",
+    "description": "Dançarinos treinaram seus corpos para obter coordenação e flexibilidade excepcionais, seja com o objetivo de impressionar uma multidão com suas acrobacias ou para afastar o mal.\n\nOs mais habilidosos sabem direcionar o fluxo das forças espirituais com movimentos precisos e repetitivos, elevando suas habilidades e manifestando efeitos mágicos.\n\nSão combatentes surpreendentemente capazes, embora um pouco... dramáticos.",
+    "questions": [
+      "Suas habilidades exigem bastante foco e disciplina? Quem te ensinou?",
+      "Por que você dança? É um tipo de arte, uma profissão, ou algo diferente?",
+      "Você é gracioso e charmoso ou malandro e espalhafatoso?",
+      "Como são suas apresentações e acrobacias?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PV ou PM máximos em 5 (à sua escolha).",
+      "stats_bonus": {
+        "hp": 5,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Dança",
+        "max_level": 10,
+        "description": "Sempre que adquirir esse poder, aprenda uma dança. Em seu turno numa cena de conflito, se não tiver uma armadura marcial equipada, você pode gastar 10 PM para apresentar uma das danças que aprendeu. Isso não exige uso de ação, mas a dança só pode ser apresentada antes ou depois da sua ação e apenas uma vez por turno. Se já apresentou uma dança diferente em seu turno anterior na mesma cena, o custo da nova dança é reduzido em 5 PM."
+      },
+      {
+        "name": "Dançarino de Guerra",
+        "max_level": 5,
+        "description": "Após apresentar uma dança, seus ataques feitos com armas das categorias adaga, arremesso, luta, e malho causam 【NP】 pontos de dano adicional até o início de seu próximo turno. Se tiver uma arma arcana equipada, feitiços ofensivos (**r**) que você lançar também causam 【NP】 pontos de dano adicional até o início de seu próximo turno."
+      },
+      {
+        "name": "Me Acompanhe",
+        "max_level": 1,
+        "description": "Ao apresentar uma dança com uma duração de “até o início de seu próximo turno”, você pode gastar 10 PM. Se fizer isso, escolha um personagem com quem você tem um Laço de afeto: o aliado também recebe os benefícios da dança como se fosse você (e tais benefícios duram até o início do seu próximo turno)."
+      },
+      {
+        "name": "Sapateado Frenético",
+        "max_level": 2,
+        "description": "Ao apresentar uma dança com uma duração de “até o início de seu próximo turno”, todos os testes opostos que dependam de acrobacia, coordenação ou velocidade recebem um bônus igual a 【NP × 2】 até o início de seu próximo turno."
+      },
+      {
+        "name": "Troca de Figurino",
+        "max_level": 1,
+        "description": "Após apresentar uma dança, você pode fazer a ação **Equipamento** sem usar ações."
+      }
+    ]
+  },
+  {
+    "id": "simbolista",
+    "name": "Simbolista",
+    "type": "class",
+    "source": "Atlas: High Fantasy",
+    "page_reference": 142,
+    "quote": "Para que serve um pincel se o seu coração é guiado pela motivação errada?",
+    "description": "Símbolos e imagens portam imenso poder. Ninguém está tão ciente disso quanto um simbolista. Em vez de uma disciplina mágica, o simbolismo é mais como um estudo da forma de tecer energias sobrenaturais em sigilos e ícones: podem ser runas pinturas, talismãs etc.\n\nA maior parte dos simbolistas desenvolve as suas habilidades com prática constante e intensiva e um estudo meticuloso. Muitos, contudo, veem essa disciplina mágica como uma forma de expressar a sua visão artística sem restrições.",
+    "questions": [
+      "Quem ou o quê lhe ensinou a tecer a magia em símbolos?",
+      "Você se vê mais como um conjurador ou como um artista?",
+      "Muitas pessoas praticam sua arte, ou você é uma exceção?",
+      "Qual é a aparência de seus símbolos e como você os usa nas criaturas?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PI máximos em 2.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "ip": 2
+      }
+    },
+    "skills": [
+      {
+        "name": "Conexão Simbólica",
+        "max_level": 1,
+        "description": "Você sempre sabe a direção exata de qualquer criatura que esteja com um de seus símbolos, desde que ela esteja a até 2 dias de viagem de sua posição."
+      },
+      {
+        "name": "Miragem",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina ritualismo; além disso, também pode usar ritualismo para criar ilusões visuais."
+      },
+      {
+        "name": "Simbolismo",
+        "max_level": 5,
+        "description": "Sempre que adquirir este poder, aprenda dois símbolos. Você pode ter até 【NP + 1】 símbolos ativos ao mesmo tempo; se criar mais símbolos além desse limite, antes deve escolher um de seus símbolos ativos para destruir. Você pode fazer a ação **Inventário** e gastar 2 PI para criar um dos símbolos que aprendeu e escolher um: aplicar esse símbolo em si mesmo; ou aplicar esse símbolo num aliado que você consegue ver; ou fazer um ataque livre usando uma arma equipada. Esse ataque não causa dano, mas você aplica uma cópia do símbolo escolhido a cada inimigo que atingir (cada cópia conta como um símbolo individual para seu limite)."
+      },
+      {
+        "name": "Símbolos Mágicos",
+        "max_level": 3,
+        "description": "Se um aliado estiver com um de seus símbolos, ele pode fazer a ação **Feitiço** para destruir o símbolo e lançar um único feitiço entre aqueles que você conhece. Para isso, o custo total em PM do feitiço deve ser igual ou menor a 【NP × 10】 (e o aliado ainda deve pagar o custo de PM)."
+      },
+      {
+        "name": "Toque Pessoal",
+        "max_level": 5,
+        "description": "Quando uma criatura que você possa ver e que esteja com um de seus símbolos sofrer dano ou recuperar PV e/ou PM, você pode fazer a criatura sofrer 【NP】 de dando adicional ou recuperar 【NP】 PV e/ou PM, respectivamente."
+      }
+    ]
+  },
+  {
+    "id": "virtuoso",
+    "name": "Virtuoso",
+    "type": "class",
+    "source": "Atlas: High Fantasy",
+    "page_reference": 148,
+    "quote": "O show mal começou e sua cortina já está abaixando!",
+    "description": "Seja dedilhando uma harpa delicada, encantando o público com sua potência vocal ou se jogando de um palco sobre uma multidão de fãs enlouquecidos, virtuosos podem ser descritos como orquestras mágicas de uma pessoa só!\n\nHabilidades do virtuoso vão além dos limites comuns da música e do canto: eles contam com a força de suas almas e tecem a energia mágica em suas canções, dando suporte a seus aliados em situações tensas.",
+    "questions": [
+      "Quem te ensinou a combinar magia e música? É um talento natural?",
+      "Você é uma celebridade ou um músico viajante?",
+      "Quem é seu maior rival na música? Quem te inspira a ser quem é?",
+      "Como são seus instrumentos e estilo de canto?"
+    ],
+    "free_benefits": {
+      "text": "Aumente permanentemente seus PM máximos em 5.",
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 5,
+        "ip": 0
+      }
+    },
+    "skills": [
+      {
+        "name": "Barreira Sonora",
+        "max_level": 5,
+        "description": "Após cantar um verso em um volume médio ou forte, qualquer quantidade de dano físico que você sofrer até o início do seu próximo turno é reduzido em 【NP】 (antes de aplicar quaisquer Afinidades a dano)."
+      },
+      {
+        "name": "Canto da Sereia",
+        "max_level": 1,
+        "description": "Você pode fazer rituais da disciplina ritualismo; além disso, também pode usar ritualismo para criar ilusões sonoras."
+      },
+      {
+        "name": "Harmonia",
+        "max_level": 3,
+        "description": "Após afetar um ou mais inimigos com um verso, se tiver uma arma arcana equipada, você pode escolher um: até o início do seu próximo turno, seus aliados causam 【NP】 de dano adicional a estes inimigos; ou até o início de seu próximo turno, você recupera 【NP】 Pontos de Mana cada vez que estes inimigos sofrerem dano (se a mesma fonte causar dano a dois ou mais inimigos ao mesmo tempo, você recupera 【NP】 PM para cada inimigo que sofreu esse dano)."
+      },
+      {
+        "name": "Magicanto",
+        "max_level": 10,
+        "description": "Em seu turno durante uma cena de conflito, você pode usar uma ação e gastar uma quantidade variável de PM para tecer sua voz e música num efeito mágico conhecido como verso. Você só pode cantar um verso por turno, mesmo se puder fazer mais de uma ação. Quando você adquire esse poder, você aprende todos os três volumes, além de uma escala e um tom. Sempre que adquiri-lo novamente, você pode aprender mais uma escala ou um tom (a sua escolha)."
+      },
+      {
+        "name": "Vibrato",
+        "max_level": 1,
+        "description": "Após cantar um verso em volume fraco ou médio, você pode fazer um ataque livre com uma arma equipada, considerando sua RA como 0 ao calcular o dano."
+      }
+    ]
+  }
+]
