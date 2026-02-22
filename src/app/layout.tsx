@@ -26,7 +26,7 @@ const creditValley = localFont({
 
 export const metadata: Metadata = {
   title: "Fabula Ultima Wiki",
-  description: "A sua wiki pessoal de Fabula Ultima",
+  description: "Wiki de Fabula Última",
 };
 
 export default function RootLayout({
