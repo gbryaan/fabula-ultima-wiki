@@ -11,6 +11,7 @@ export type RuleCategory =
   | 'magia_rituais' 
   | 'economia_pontos'
   | 'mundo_exploracao'
+  | 'opcionais'
 
 // 2. Interface Base (O contrato para o RF03 - Busca Global)
 export interface BaseEntity {

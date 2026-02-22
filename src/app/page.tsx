@@ -8,7 +8,8 @@ export default function HomePage(){
         {"nome" : "Magia e Rituais", "pagina" : "magia_rituais/feiticos"},
         {"nome" : "Mundo e Exploração", "pagina" : "mundo_exploracao/pontos-inventario"},
         {"nome" : "Personagem", "pagina" : "personagem/atributos"},
-        {"nome" : "Ações", "pagina" : "resolucao_acoes/testes"}
+        {"nome" : "Ações", "pagina" : "resolucao_acoes/testes"},
+        {"nome" : "Opcionais", "pagina" : "opcionais/sucesso-custoso"}
     ]
 
     return(

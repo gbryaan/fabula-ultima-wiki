@@ -12,7 +12,8 @@ const CATEGORY_NAMES: Record<string, string> = {
     "magia_rituais": "Magia e Rituais",
     "mundo_exploracao": "Mundo e Exploração",
     "personagem": "Personagem",
-    "resolucao_acoes": "Resolução de Ações"
+    "resolucao_acoes": "Resolução de Ações",
+    "opcionais" : "Regras Opcionais"
 };
 
 export default async function LayoutRules({children, params} : Props){

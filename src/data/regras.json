@@ -334,5 +334,109 @@
     "category": "mundo_exploracao",
     "source": "Livro Básico",
     "description": "Descobertas não acontecem com tanta frequência, portanto o mestre deve fazer com que cada uma seja especial e útil. Exemplos de descobertas são:\n\n* Uma protegida entrada para uma ruína antiga. Que tesouros ela guarda?\n* Uma caravana mercante ou um grupo de criaturas solícitas.\n* Uma aldeia reclusa ou um refúgio desconhecido.\n* Um item precioso ou uma informação.\n\nLembre-se que descobertas são sempre boas: mesmo se for um local perigoso, a recompensa que ele guarda deve compensar muito."
+  },
+  {
+    "id": "sucesso-custoso",
+    "name": "Regra Opcional: Sucesso Custoso",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Esta regra permite aos PJs transformar falhas em sucessos, mas o preço é alto. Quando falha, o personagem pode propor um **sucesso custoso**. O mestre ajusta o custo conforme achar apropriado e, depois, o jogador pode aceitar ou recusar a proposta.\n\nAo definir se o custo é apropriado, lembre-se que ele deve colocar o personagem em uma situação complicada ou tomar algo importante dele. Se o custo pode ser remediado com pouco esforço, algo está errado.\n\nVocê não pode fazer um sucesso custoso se seu PJ teve uma **falha crítica**. Em um sucesso custoso, a rolagem alta e o resultado do teste permanecem os mesmos."
+  },
+  {
+    "id": "evocando-falhas",
+    "name": "Regra Opcional: Evocando Falhas",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Esta regra opcional permite aos jogadores evocar Laços e Traços de seus personagens para falhar intencionalmente nos testes e ganhar Pontos de Fabula.\n\nUma vez por cena, antes de fazer um teste, o jogador pode descrever como os Laços ou Traços do personagem o impedem de ter sucesso, o que substitui a realização do teste.\n\nCom isso, o teste é considerado uma falha automática com resultado e rolagem alta iguais a 0. Depois, o personagem ganha **1 Ponto de Fabula**.\n\nVocê não pode evocar falhas em testes de Apoio, nem obter sucesso custoso em um teste no qual você já evocou uma falha."
+  },
+  {
+    "id": "escolha-compartilhada-atributo",
+    "name": "Regra Opcional: Escolha Compartilhada de Atributo",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Esta regra opcional permite ao jogador decidir um dos Atributos envolvidos nos testes que fizer, enquanto o mestre decide o outro. Esse Atributo pode ser o mesmo escolhido pelo jogador ou um diferente.\n\nEsta regra não se aplica a testes cujos Atributos já estão estabelecidos nas regras, como testes de Precisão."
+  },
+  {
+    "id": "iniciativa-inimigos",
+    "name": "Regra Opcional: Iniciativa dos Inimigos",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Se você for o mestre, pode ser difícil lembrar quais adversários ainda podem agir em seu turno.\n\nUma solução excelente é fazer os inimigos agirem em **ordem descendente de iniciativa**, do mais rápido ao mais lento — basta anotar a ordem e aplicá-la a cada rodada.\n\nIsso torna os inimigos um pouco mais previsíveis, mas também lhe permite focar em aspectos mais importantes do conflito."
+  },
+  {
+    "id": "rodada-surpresa",
+    "name": "Regra Opcional: Rodada de Surpresa",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Normalmente, a iniciativa já determina quais personagens no conflito estão mais cientes de seus arredores e podem reagir ao perigo de imediato; no entanto, se um lado surpreender os adversários, o mestre pode dar uma rodada livre para ele agir antes dos demais.\n\nIsso é uma **rodada de surpresa**.\n\nEsta regra opcional favorece muito os emboscadores — uma rodada inteira é uma vantagem enorme! Se não gosta da possibilidade de um personagem ser derrotado antes mesmo de agir no conflito, não use esta regra."
+  },
+  {
+    "id": "jogadores-vigia",
+    "name": "Regra Opcional: Jogadores Vigia do Conflito",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Jogadores que não estiverem controlando personagens na cena de conflito ainda podem influenciar seu resultado: uma vez por rodada, após qualquer personagem fazer um teste, um jogador cujo personagem está ausente da cena pode escolher um único dado rolado naquele teste e forçá-lo a ser rolado novamente. Vários jogadores podem trabalhar em conjunto para fazer o mesmo dado ser rolado mais vezes."
+  },
+  {
+    "id": "pontos-superioridade",
+    "name": "Regra Opcional: Pontos de Superioridade",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Se usar esta regra, todos os participantes do conflito ganham acesso a um recurso especial: **Pontos de Superioridade**. Esses pontos são compartilhados pela equipe, portanto os Pontos de Superioridade que você ganhar podem ser gastos por você ou pelos seus aliados.\n\n**Ganhando Pontos de Superioridade:**\n*   Sempre que você causar dano a um ou mais inimigos, se um ou mais deles forem **Vulneráveis** ao dano causado, sua equipe ganha 1 Ponto de Superioridade.\n*   Sempre que sofrer dano, se você for **Imune** ou **Absorvedor** daquele tipo de dano, sua equipe ganha 1 Ponto de Superioridade.\n*   Sempre que tiver **sucesso crítico**, sua equipe ganha 1 Ponto de Superioridade.\n*   Sempre que tiver **falha crítica**, os inimigos ganham 1 Ponto de Superioridade.\n\nUm personagem pode gastar **1 Ponto de Superioridade** para fazer uma ação adicional no turno dele.\n\nHá ainda três regras importantes sobre Pontos de Superioridade:\n*   Um personagem só pode gastar 1 Ponto de Superioridade por turno, não importando o número de pontos disponíveis à sua equipe.\n*   Sempre que sua equipe estiver prestes a ganhar um Ponto de Superioridade, se os inimigos já tiverem um ou mais pontos, você não ganha esse Ponto de Superioridade; em vez disso, os inimigos perdem um Ponto de Superioridade.\n*   Uma equipe nunca pode ter mais que 5 Pontos de Superioridade; quaisquer pontos excedentes são descartados."
+  },
+  {
+    "id": "lacos-iniciais",
+    "name": "Regra Opcional: Laços Iniciais",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Às vezes, faz sentido que um PJ já tenha sentimentos fortes em relação a outra pessoa — talvez ele odeie o império avaloniano ou seja leal à sua família. Se você usar esta regra opcional, cada PJ começa o jogo com um **Laço** associado a uma única emoção.\n\nEsta regra opcional é ótima para campanhas mais curtas que ofertam menos tempo para construção de Laços entre personagens. Também é perfeita para grupos nos quais dois ou mais heróis já se conhecem, têm alguma rivalidade ou pertencem a facções opostas — esse é o tipo de relação dramática que você quer ver em ação!"
+  },
+  {
+    "id": "avanco-blitz",
+    "name": "Regra Opcional de Avanço: Blitz",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "PJs ganham mais experiência ao final de cada batalha em que todos os inimigos fugiram ou ficaram com 0 PV. A quantidade de EXP que cada personagem ganha é igual a **【5 menos o número final de rodadas da batalha】**; ou seja, batalhas concluídas em seis rodadas não concedem experiência, enquanto batalhas concluídas na primeira rodada concedem 5 EXP para cada participante.\n\n*   A experiência adicional é concedida a todos os personagens que participarem da batalha, mesmo que tenham se rendido ou fugido."
+  },
+  {
+    "id": "avanco-impulso",
+    "name": "Regra Opcional de Avanço: Impulso",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Cada jogador automaticamente avança um nível no final de cada sessão (além do avanço normal)."
+  },
+  {
+    "id": "avanco-personificacao",
+    "name": "Regra Opcional de Avanço: Personificação",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "O grupo vota no jogador que melhor interpretou sua Identidade e/ou Tema durante a sessão — o escolhido ganha **2 EXP a mais**. Se dois ou mais jogadores empatarem, ambos ganharão a experiência adicional!\n\nNo entanto, você não pode conceder EXP bônus duas vezes seguidas e não pode votar em si mesmo ou no mestre."
+  },
+  {
+    "id": "avanco-destaque",
+    "name": "Regra Opcional de Avanço: Destaque",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Ao fim de cada sessão, o grupo vota no jogador que mais se destacou — o escolhido ganha **2 EXP a mais**. Se dois ou mais jogadores empatarem, ambos ganharão a experiência adicional!\n\nComo em personificação, não é possível receber esta EXP bônus duas vezes seguidas e não é possível votar em si mesmo ou no mestre."
+  },
+  {
+    "id": "compra-habilidades",
+    "name": "Regra Opcional: Compra de Habilidades",
+    "type": "rule",
+    "category": "opcionais",
+    "source": "Livro Básico",
+    "description": "Com esta regra opcional, os PJs podem pagar um ferreiro ou artesão para adicionar uma habilidade a armas, armaduras ou escudos normais ou trocar a habilidade de um item raro por outra (lembre-se de que itens raros só podem ter uma habilidade).\n\nPara isso, o jogador escolhe uma habilidade da lista padrão do tipo de item que deseja aprimorar, desde que o modificador de custo da habilidade seja +1.000 zênites ou menos. Em seguida, o personagem deve gastar zênites em um número igual ao dobro desse modificador de custo."
   }
 ]
