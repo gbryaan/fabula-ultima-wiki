@@ -14,7 +14,7 @@ export default function Header() {
                         Fabula Ultima
                     </h1>
                     <span className="font-antonio text-xs tracking-[0.3em] text-slate-400 uppercase">
-                        Será essa a última fábula?
+                        a fábula está morta !
                     </span>
                 </div>
             </Link>
