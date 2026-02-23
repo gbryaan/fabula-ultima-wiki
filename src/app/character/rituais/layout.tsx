@@ -14,7 +14,7 @@ export default async function LayoutRituals({children} : {children: React.ReactN
         <div className="flex flex-col min-h-screen bg-parchment">
             
             <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark sticky top-0 z-10 shadow-sm">
-                <Header list={disciplines_list} page="rituais"></Header>
+                <Header list={disciplines_list} page="character/rituais"></Header>
             </header>
 
             <div className="flex flex-1">

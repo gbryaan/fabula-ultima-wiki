@@ -54,7 +54,7 @@ export default function Header({list, page} : HeaderProps){
                 <nav className="flex flex-col gap-1 h-full overflow-y-auto w-48 bg-parchment border-r-2  border-arcane/20 shadow-[4px_0_10px_-2px_rgba(0,0,0,0.1)]" onClick={e => e.stopPropagation()}>
                     {list.map((cls) =>(
                         <Link 
-                            href={`/character/${page}/${cls}`} 
+                            href={`/${page}/${cls}`} 
                             key={cls.toLowerCase()} 
                             className="font-antonio text-lg tracking-wide text-slate-600 hover:text-arcane-dark hover:bg-arcane/10 px-3 py-2 rounded transition-all flex items-center gap-2 group uppercase"
                         >

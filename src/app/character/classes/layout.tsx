@@ -15,7 +15,7 @@ export default async function LayoutClasses({children} : {children: React.ReactN
             
 
             <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark  sticky top-0 z-10 shadow-sm">
-                <Header list={classes_list} page="classes"></Header>
+                <Header list={classes_list} page="character/classes"></Header>
             </header>
 
             <div className="flex flex-1">

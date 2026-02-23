@@ -28,7 +28,7 @@ export default async function EquipmentsPage() {
           </h2>
           
           <div className="bg-parchment-dark/50 rounded-lg shadow-sm border border-arcane/20 overflow-x-auto">
-            <table className="w-full text-left border-collapse min-w-[800px]">
+            <table className="w-full text-left border-collapse min-w-200">
               <thead className="bg-arcane/10 border-b-2 border-arcane/20">
                 <tr>
                   <th className="p-3 font-antonio text-arcane-dark tracking-wide uppercase">Arma</th>

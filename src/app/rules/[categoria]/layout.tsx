@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getRulesByCategory } from "@/lib/api";
-import Header from "@/components/organisms/Header";
+import Header from "@/components/organisms/ResponsiveHeader";
 
 interface Props {
     children : React.ReactNode
@@ -19,7 +19,11 @@ const CATEGORY_NAMES: Record<string, string> = {
 export default async function LayoutRules({children, params} : Props){
 
     const slug = (await params).categoria
-    const rules = await getRulesByCategory(slug)
+    let rules = await getRulesByCategory(slug)
+    if (!rules) {
+        rules = []
+    }
+    const rules_name = rules.map(x => x.id)
     const displayTitle = CATEGORY_NAMES[slug] || slug.replace(/_/g, ' ');
 
 
@@ -27,12 +31,12 @@ export default async function LayoutRules({children, params} : Props){
         <div className="flex flex-col min-h-screen bg-parchment">
             
             <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark sticky top-0 z-10 shadow-sm">
-                <Header></Header>
+                <Header list={rules_name} page={`rules/${slug}`}></Header>
             </header>
 
             <div className="flex flex-1">
                 {/* SIDEBAR PADRONIZADA */}
-                <aside className="w-64 flex-shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
+                <aside className="hidden md:block w-64 flex-shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
                     
                     {/* Título dinâmico baseado na URL */}
                     <h2 className="text-xl font-antonio text-arcane-dark uppercase tracking-widest mb-4 border-b border-crimson/20 pb-2">
