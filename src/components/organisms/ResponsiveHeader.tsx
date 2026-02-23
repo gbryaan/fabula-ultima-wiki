@@ -51,7 +51,7 @@ export default function Header({list, page} : HeaderProps){
                 className="fixed top-0 left-0 bottom-0 right-0 md:hidden bg-linear-to-r from-parchment transition-transform data-[open=false]:-translate-x-full"
                 onClick={() => setDrawer(false)}
             >
-                <nav className="flex flex-col gap-1 h-full w-48 bg-parchment border-r-2  border-arcane/20 shadow-[4px_0_10px_-2px_rgba(0,0,0,0.1)]" onClick={e => e.stopPropagation()}>
+                <nav className="flex flex-col gap-1 h-full overflow-y-auto w-48 bg-parchment border-r-2  border-arcane/20 shadow-[4px_0_10px_-2px_rgba(0,0,0,0.1)]" onClick={e => e.stopPropagation()}>
                     {list.map((cls) =>(
                         <Link 
                             href={`/character/${page}/${cls}`} 
