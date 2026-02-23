@@ -19,7 +19,7 @@ export default function HomePage(){
                     <Header></Header>
                 </header>   
 
-    <main className='flex flex-col items-center min-h-screen bg-parchment py-12 px-4'>
+        <main className='flex flex-col items-center min-h-screen bg-parchment py-12 px-4'>
 
             
 

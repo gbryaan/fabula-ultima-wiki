@@ -1,15 +1,12 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* O Bloco @theme é a alma do Tailwind v4. 
-  Tudo que colocamos aqui vira uma classe utilitária automaticamente.
-*/
 @theme {
   /* --- PALETA FABULA ULTIMA --- */
   
   /* Cores de Fundo (Pergaminho) */
   --color-parchment: #fdfbf7;
-  --color-parchment-dark: #f4eee1; /* Excelente para bordas e cards */
+  --color-parchment-dark: #f4eee1; /*para bordas e cards */
   
   /* Primária (Roxo Arcano) */
   --color-arcane: #5e2ca5;
@@ -20,8 +17,8 @@
   --color-crimson: #a31526;
   --color-crimson-light: #c21f33;
 
-/* --- TIPOGRAFIA DA TRINDADE --- */
-  /* Aqui dizemos ao Tailwind para criar as classes 'font-credit', 'font-antonio' e 'font-pt' */
+/* --- TIPOGRAFIA--- */
+
   --font-credit: var(--font-credit), serif;
   --font-antonio: var(--font-antonio), sans-serif;
   --font-pt: var(--font-pt-sans), sans-serif;
@@ -31,24 +28,42 @@
   Aqui garantimos que a página inteira nasça com a cor do pergaminho.
 */
 @layer base {
-  body {
-    background-color: var(--color-parchment);
-    color: #334155; /* Um cinza chumbo muito elegante para leitura longa */
-    font-family: var(--font-pt); /* O texto base do site agora é PT Sans Narrow */
+
+  :root {
+    --bg-parchment: #fdfbf7;
+    --bg-parchment-dark: #f4eee1;
+    --text-arcane: #5e2ca5; /* Roxo forte para dar contraste no claro */
+    --text-base: #334155;
   }
 
-  /* Títulos Grandes (Oito Pilares) */
+  /* O MODO ESCURO */
+
+  .dark {
+    --bg-parchment: #1a1a24; /* Um tom de "papiro noturno" ou obsidiana */
+    --bg-parchment-dark: #232333; 
+    --text-arcane: #a778f5; /* Roxo mais claro, em tom pastel, para brilhar no escuro */
+    --text-base: #e2e8f0;
+  }
+
+
+  body {
+    background-color: var(--color-parchment);
+    color: var(--text-base); 
+    font-family: var(--font-pt); 
+  }
+
+
   h1 {
     font-family: var(--font-credit);
     color: var(--color-arcane);
-    font-weight: normal; /* Fontes super estilizadas geralmente não precisam de bold extra */
+    font-weight: normal; 
   }
 
   /* Subtítulos (Conceitos) */
   h2, h3, h4, h5, h6 {
     font-family: var(--font-antonio);
     color: var(--color-arcane-dark);
-    text-transform: uppercase; /* Antonio fica espetacular em MAIÚSCULAS para subtítulos */
-    letter-spacing: 0.05em; /* Um pequeno espaçamento para dar fôlego ao título */
+    text-transform: uppercase;
+    letter-spacing: 0.05em; 
   }
 }

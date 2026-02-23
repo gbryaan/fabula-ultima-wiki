@@ -4,7 +4,7 @@ import { Rituais } from "@/types";
 import Header from "@/components/organisms/Header";
 
 export default async function LayoutRituals({children} : {children: React.ReactNode}){
-    // Sua lógica excelente de extrair valores únicos
+
     const rituais: Rituais[] = await getAllRituals();
     const all_disciplines = rituais.map(x => x.discipline);
     const disciplines = new Set(all_disciplines);
@@ -19,7 +19,7 @@ export default async function LayoutRituals({children} : {children: React.ReactN
 
             <div className="flex flex-1">
                 {/* SIDEBAR PADRONIZADA */}
-                <aside className="w-64 flex-shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
+                <aside className="w-64 shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
                     
                     <h2 className="text-xl font-antonio text-arcane-dark uppercase tracking-widest mb-4 border-b border-crimson/20 pb-2">
                         Disciplinas

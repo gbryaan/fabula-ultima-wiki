@@ -2,10 +2,21 @@ import { getClassById, getAllClassSpell} from "@/lib/api"
 import { notFound } from "next/navigation"
 import SpellCard from "@/components/molecules/SpellCard"
 import SkillCard from "@/components/molecules/SkillCard"
+import type { Metadata } from "next";
 
 interface Props {
   params: { id: string };
 }
+
+export async function generateMetadata({params} : Props){
+
+    const slug = (await params).id
+    const classe = await getClassById(slug)
+
+    return {title : classe?.name}
+
+}
+
 
 export default async function ClassPage({params} : Props){
     const slug = (await params).id

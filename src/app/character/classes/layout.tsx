@@ -7,10 +7,10 @@ export default async function LayoutClasses({children} : {children: React.ReactN
     const classes : FabulaClass[] = await getAllClasses()
 
     return(
-        /* O fundo principal da tela inteira agora é parchment (pergaminho) */
+
         <div className="flex flex-col min-h-screen bg-parchment">
             
-            {/* Transformei o header em 'sticky' para ele grudar no topo ao rolar a página */}
+
             <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark  sticky top-0 z-10 shadow-sm">
                 <Header></Header>
             </header>
@@ -28,10 +28,9 @@ export default async function LayoutClasses({children} : {children: React.ReactN
                             <Link 
                                 href={`/character/classes/${cls.id}`} 
                                 key={cls.id} 
-                                /* O 'group' avisa que os filhos dessa tag vão reagir quando o mouse passar aqui */
                                 className="font-antonio text-lg tracking-wide text-slate-600 hover:text-arcane-dark hover:bg-arcane/10 px-3 py-2 rounded transition-all flex items-center gap-2 group"
                             >
-                                {/* A setinha nasce transparente (crimson/0) e fica sólida (crimson) no hover */}
+
                                 <span className="text-crimson/0 group-hover:text-crimson transition-colors text-sm">▶</span>
                                 {cls.name}
                             </Link>
@@ -39,7 +38,6 @@ export default async function LayoutClasses({children} : {children: React.ReactN
                     </nav>
                 </aside>
 
-                {/* O conteúdo principal renderiza aqui dentro */}
                 <main className="flex-1">{children}</main>                
             </div>
         </div>
