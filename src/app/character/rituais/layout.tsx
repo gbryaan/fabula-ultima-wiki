@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllRituals } from "@/lib/api";
 import { Rituais } from "@/types";
-import Header from "@/components/organisms/Header";
+import Header from "@/components/organisms/RitualsHeader"
 
 export default async function LayoutRituals({children} : {children: React.ReactNode}){
 
@@ -14,18 +14,18 @@ export default async function LayoutRituals({children} : {children: React.ReactN
         <div className="flex flex-col min-h-screen bg-parchment">
             
             <header className="flex justify-center border-b-2 border-arcane/20 bg-parchment-dark sticky top-0 z-10 shadow-sm">
-                <Header></Header>
+                <Header disciplines_list={disciplines_list}></Header>
             </header>
 
             <div className="flex flex-1">
                 {/* SIDEBAR PADRONIZADA */}
-                <aside className="w-64 shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
+                <aside className="hidden md:block w-64 shrink-0 flex flex-col p-6 border-r-2 border-arcane/10 bg-parchment-dark/40 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.02)]">
                     
                     <h2 className="text-xl font-antonio text-arcane-dark uppercase tracking-widest mb-4 border-b border-crimson/20 pb-2">
                         Disciplinas
                     </h2>
                     
-                    <nav className="flex flex-col gap-1">
+                    <nav className="flex flex-col gap-1 h-full">
                         {disciplines_list.map((cls) =>(
                             <Link 
                                 href={`/character/rituais/${cls}`} 
