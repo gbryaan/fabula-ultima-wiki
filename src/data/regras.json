@@ -448,20 +448,12 @@
     "description": "Para subir de nível e ter mais poder, o PJ deve ganhar experiência (EXP). [1] Seu personagem ganha uma quantidade variável de experiência no fim da sessão, conforme resumido na sua ficha de personagem: [1]\n\n*   O personagem ganha **5 EXP** automaticamente. Isso garante que você fará progresso, aconteça o que acontecer durante a sessão. [1]\n*   O personagem também ganha uma quantidade de EXP igual ao número de **Pontos de Ultima** gastos por vilões na sessão. [2] Vilões que gastam muitos Pontos de Ultima não estão se contendo e tal adversidade fará você crescer. [2] Por isso é uma boa ideia registrar os Pontos de Ultima gastos colocando marcadores dentro de uma tigela ou copo. [2]\n*   Por fim, seu personagem ganha uma quantidade de EXP igual à **metade dos Pontos de Fabula** gastos pelo grupo durante a sessão, dividida pelo número de PJs participantes. [2] Sempre que gastar Pontos de Fabula, você estará fortalecendo a si e aos seus companheiros! [2]"
   },
   {
-    "id": "registrando-experiencia-niveis",
-    "name": "Registrando Experiência e Níveis",
+    "id": "ganhando-registrando-experiencia",
+    "name": "Ganhando e Registrando Experiência",
     "type": "rule",
     "category": "personagem",
     "source": "Livro Básico",
-    "description": "Ao ganhar EXP, registre-a na sua ficha de personagem: [3]\n\nAo ganhar experiência no final de uma sessão, você tem a chance de subir de nível: se tiver **10 ou mais de experiência**, você deve gastar dez desses pontos para subir **1 nível de personagem** — os pontos excedentes são guardados. [3] Observe que não importa quantos pontos de experiência você tiver, ainda que sejam múltiplos de dez, você só pode ganhar um nível por sessão desta maneira. [3]"
-  },
-  {
-    "id": "ganhando-niveis",
-    "name": "Ganhando Níveis",
-    "type": "rule",
-    "category": "personagem",
-    "source": "Livro Básico",
-    "description": "Seu personagem recebe diversos benefícios a cada novo nível: [4]\n\n*   Você pode alterar a **Identidade** e/ou o **Tema** do personagem. [4]\n*   Aumente os **PV e PM** em +1 cada. [4] Note que isso não afeta seus PV e PM atuais. [4]\n*   Se você acabou de chegar no **nível 20 ou 40**, escolha um de seus Atributos e aumente o dado básico dele em um, até o máximo de d12. [4] Esta é a única maneira de aumentar Atributos. [4] Quando fizer isso, é possível que outras estatísticas também mudem. [4]\n*   Você aumenta o nível de uma de suas classes em **+1** ou ganha o primeiro nível de uma classe que ainda não tem. [4]\n\nEntretanto, há duas limitações importantes ao subir de nível: [5]\n\n*   **Não é possível ter mais de dez níveis em uma classe.** [5] Após investir o décimo nível em uma classe, ela é dominada; isso lhe concede um poder heroico, mas você não pode alocar mais níveis nela. [5]\n*   **Não é possível ter mais de três classes não dominadas.** [5] Se quiser diversificar o personagem, você deve primeiro dominar uma das classes que já possui. [5]"
+    "description": "Para subir de nível e ter mais poder, o PJ deve ganhar experiência (EXP) [1]. Seu personagem ganha uma quantidade variável de experiência no fim da sessão, conforme resumido na sua ficha de personagem [1]:\n\n*   O personagem ganha **5 EXP** automaticamente [1]. Isso garante que você fará progresso, aconteça o que acontecer durante a sessão [1].\n*   O personagem também ganha uma quantidade de EXP igual ao número de **Pontos de Ultima** gastos por vilões na sessão [2]. Vilões que gastam muitos Pontos de Ultima não estão se contendo e tal adversidade fará você crescer [2]. Por isso é uma boa ideia registrar os Pontos de Ultima gastos colocando marcadores dentro de uma tigela ou copo [2].\n*   Por fim, seu personagem ganha uma quantidade de EXP igual à **metade dos Pontos de Fabula** gastos pelo grupo durante a sessão, dividida pelo número de PJs participantes [2, 3]. Sempre que gastar Pontos de Fabula, você estará fortalecendo a si e aos seus companheiros [3]!\n\nAo ganhar EXP, registre-a na sua ficha de personagem [4]. Ao ganhar experiência no final de uma sessão, você tem a chance de subir de nível: se tiver **10 ou mais de experiência**, você deve gastar dez desses pontos para subir **1 nível de personagem** — os pontos excedentes são guardados [4]. Observe que não importa quantos pontos de experiência você tiver, ainda que sejam múltiplos de dez, você só pode ganhar um nível por sessão desta maneira [4]."
   },
   {
     "id": "aumentando-atributos",
