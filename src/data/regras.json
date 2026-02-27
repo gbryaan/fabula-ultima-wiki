@@ -438,5 +438,69 @@
     "category": "opcionais",
     "source": "Livro Básico",
     "description": "Com esta regra opcional, os PJs podem pagar um ferreiro ou artesão para adicionar uma habilidade a armas, armaduras ou escudos normais ou trocar a habilidade de um item raro por outra (lembre-se de que itens raros só podem ter uma habilidade).\n\nPara isso, o jogador escolhe uma habilidade da lista padrão do tipo de item que deseja aprimorar, desde que o modificador de custo da habilidade seja +1.000 zênites ou menos. Em seguida, o personagem deve gastar zênites em um número igual ao dobro desse modificador de custo."
+  },
+    {
+    "id": "ganhando-experiencia",
+    "name": "Ganhando Experiência",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Para subir de nível e ter mais poder, o PJ deve ganhar experiência (EXP). [1] Seu personagem ganha uma quantidade variável de experiência no fim da sessão, conforme resumido na sua ficha de personagem: [1]\n\n*   O personagem ganha **5 EXP** automaticamente. Isso garante que você fará progresso, aconteça o que acontecer durante a sessão. [1]\n*   O personagem também ganha uma quantidade de EXP igual ao número de **Pontos de Ultima** gastos por vilões na sessão. [2] Vilões que gastam muitos Pontos de Ultima não estão se contendo e tal adversidade fará você crescer. [2] Por isso é uma boa ideia registrar os Pontos de Ultima gastos colocando marcadores dentro de uma tigela ou copo. [2]\n*   Por fim, seu personagem ganha uma quantidade de EXP igual à **metade dos Pontos de Fabula** gastos pelo grupo durante a sessão, dividida pelo número de PJs participantes. [2] Sempre que gastar Pontos de Fabula, você estará fortalecendo a si e aos seus companheiros! [2]"
+  },
+  {
+    "id": "registrando-experiencia-niveis",
+    "name": "Registrando Experiência e Níveis",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Ao ganhar EXP, registre-a na sua ficha de personagem: [3]\n\nAo ganhar experiência no final de uma sessão, você tem a chance de subir de nível: se tiver **10 ou mais de experiência**, você deve gastar dez desses pontos para subir **1 nível de personagem** — os pontos excedentes são guardados. [3] Observe que não importa quantos pontos de experiência você tiver, ainda que sejam múltiplos de dez, você só pode ganhar um nível por sessão desta maneira. [3]"
+  },
+  {
+    "id": "ganhando-niveis",
+    "name": "Ganhando Níveis",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Seu personagem recebe diversos benefícios a cada novo nível: [4]\n\n*   Você pode alterar a **Identidade** e/ou o **Tema** do personagem. [4]\n*   Aumente os **PV e PM** em +1 cada. [4] Note que isso não afeta seus PV e PM atuais. [4]\n*   Se você acabou de chegar no **nível 20 ou 40**, escolha um de seus Atributos e aumente o dado básico dele em um, até o máximo de d12. [4] Esta é a única maneira de aumentar Atributos. [4] Quando fizer isso, é possível que outras estatísticas também mudem. [4]\n*   Você aumenta o nível de uma de suas classes em **+1** ou ganha o primeiro nível de uma classe que ainda não tem. [4]\n\nEntretanto, há duas limitações importantes ao subir de nível: [5]\n\n*   **Não é possível ter mais de dez níveis em uma classe.** [5] Após investir o décimo nível em uma classe, ela é dominada; isso lhe concede um poder heroico, mas você não pode alocar mais níveis nela. [5]\n*   **Não é possível ter mais de três classes não dominadas.** [5] Se quiser diversificar o personagem, você deve primeiro dominar uma das classes que já possui. [5]"
+  },
+  {
+    "id": "aumentando-atributos",
+    "name": "Aumentando Atributos",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Ao aumentar um de seus Atributos, tenha em mente que eles influenciam seus PV máximos, PM máximos, Defesa e Defesa Mágica: [5]\n\n*   Os **PV máximos** são iguais ao nível total do personagem + 【cinco vezes o dado básico de Vigor do personagem】. [6]\n*   O **valor de crise** é igual à metade dos PV máximos, arredondada para baixo. [6]\n*   Os **PM máximos** são iguais ao nível total do personagem + 【cinco vezes o dado básico de Vontade do personagem】. [6]\n*   Sua **Defesa** é igual ao seu dado atual de Destreza. [6]\n*   Sua **Def.M** é igual ao seu dado atual de Astúcia. [6]\n\nObserve que esses números poderão mudar devido às escolhas de classe, poderes e equipamento. [6]"
+  },
+  {
+    "id": "investindo-niveis-classes",
+    "name": "Investindo Níveis em Classes de Personagem",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Tal como na criação de personagem, colocar um nível em uma classe lhe permite adquirir um de seus poderes de classe — seja um novo ou um que já possui, mas que pode ser adquirido mais de uma vez (+). [7]\n\nVocê não pode passar do 10º nível em nenhuma classe. [7] Quando alcança o 10º nível em uma classe, você a **domina**: adquira um poder heroico à sua escolha. [7]\n\nObserve que esse poder heroico é uma adição ao poder de classe que você já adquire ao investir o décimo nível na classe em questão. [7]\n\nSe um poder pode ser adquirido mais de uma vez, ele também indica quantas vezes isso pode ser feito, como 【+5】 para um poder que pode ser adquirido até cinco vezes ou 【+10】 para um que pode ser adquirido até dez. [8]\n\nSe colocar um nível em uma classe que ainda não tinha, você também recebe os benefícios iniciais concedidos por ela. [8] Alternar entre várias classes pode ser útil — só não esqueça de dominar algumas! [8]"
+  },
+  {
+    "id": "mudando-identidade-tema",
+    "name": "Mudando Identidade e Tema",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Se você decidir mudar sua Identidade e/ou Tema ao ganhar um nível, explique o que motivou essa mudança — talvez tenha abandonado sua Raiva e aprendido a importância da Piedade, ou seus dias como Paladino juramentado tenham acabado e você se tornou um Proscrito rebelde. [9]\n\nNão tenha medo de mudar: pode ser uma maneira de mostrar ao grupo que você quer explorar um novo lado de seu personagem! [9]"
+  },
+  {
+    "id": "criando-personagens-nivel-alto",
+    "name": "Criando Personagens de Nível Alto",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Se o grupo decidir começar o jogo acima do quinto nível, basta criar os personagens normalmente e fazê-los subir até o nível desejado. [10]\n\nTambém é possível aumentar a quantidade de zênites disponível para equipamentos iniciais: um aumento de 50 zênites por nível é adequado. [10] Um personagem de nível 30 teria, portanto, 2.000 zênites. [10]\n\nItens e acessórios raros também estão disponíveis para PJs de nível mais alto. [10]"
+  },
+  {
+    "id": "substituindo-personagem",
+    "name": "Substituindo um Personagem",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "Às vezes, um PJ terá uma morte heroica ou o jogador decidirá que seu arco narrativo foi concluído de forma satisfatória. [10] Se o jogador trocar para um novo personagem, ele será criado com nível igual ao do personagem anterior e com a mesma quantidade de experiência. [10]"
   }
 ]
