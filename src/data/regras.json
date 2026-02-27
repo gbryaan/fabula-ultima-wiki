@@ -494,5 +494,13 @@
     "category": "personagem",
     "source": "Livro Básico",
     "description": "Às vezes, um PJ terá uma morte heroica ou o jogador decidirá que seu arco narrativo foi concluído de forma satisfatória. [10] Se o jogador trocar para um novo personagem, ele será criado com nível igual ao do personagem anterior e com a mesma quantidade de experiência. [10]"
+  },
+    {
+    "id": "criacao-de-personagem",
+    "name": "Criação de Personagem",
+    "type": "rule",
+    "category": "personagem",
+    "source": "Livro Básico",
+    "description": "A criação de personagem é apresentada como uma série de passos similares à criação de mundo; entretanto, você não precisa seguir essas etapas em uma ordem exata. É possível voltar e mudar suas escolhas a qualquer momento do processo.\n\nNormalmente, os personagens são criados no nível 5. Veja a página 229 para saber sobre PJs de nível mais alto.\n\n1. Crie a **Identidade** do personagem: uma frase curta que resuma como ele se vê no momento.\n2. Crie ou escolha o **Tema** do personagem: um ideal, emoção ou sentimento forte que dita suas ações.\n3. Crie ou escolha a **Origem** do personagem: o local de onde ele veio. Você pode escolher um da ficha de mundo ou adicionar um novo.\n4. Escolha duas ou três classes e distribua seus cinco níveis iniciais entre elas. Anote os benefícios grátis e poderes obtidos.\n5. Determine o tipo de dado básico dos quatro valores de Atributo do personagem: **Destreza**, **Vigor**, **Astúcia** e **Vontade**.\n6. Calcule os valores iniciais de Pontos de Vida, Pontos de Mana, Pontos de Inventário, Defesa, Defesa Mágica e o modificador de Iniciativa.\n7. Utilize o valor inicial de 500z para comprar equipamentos e some o que restar a uma rolagem de 2d6x10 para determinar seu dinheiro inicial.\n8. Descreva o personagem e escolha seu nome e pronomes!"
   }
 ]
